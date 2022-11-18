@@ -43,7 +43,7 @@ class CustomDocument extends Document {
           <noscript
             dangerouslySetInnerHTML={{
               __html:
-                '</noscript><style>\nhtml * {\n    -webkit-font-smoothing: antialiased;\n}\ninput::placeholder, textarea::placeholder {\n   color: #d2d6da;\n}\n</style>\n\n<div id="my-store-78742521"></div>\n<div>\n    <script data-cfasync="false" type="text/javascript"\n        src="https://app.ecwid.com/script.js?78742521&data_platform=code&data_date=2022-10-11" charset="utf-8"></script>\n    <script type="text/javascript">\n        xProductBrowser(\n  "categoriesPerRow=3",\n  "views=grid(20,3) list(60) table(60)",\n  "categoryView=grid",\n  "searchView=list",\n  "id=my-store-78742521"\n);\n    </script>\n</div>\n<noscript>',
+                '</noscript><script data-cfasync="false" type="text/javascript"\n    src="https://app.ecwid.com/script.js?78742521&data_platform=code&data_date=2022-11-18" charset="utf-8"></script>\n<script type="text/javascript">\n    xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-78742521");\n</script>\n<style>\nhtml * {\n    -webkit-font-smoothing: antialiased;\n}\ninput::placeholder, textarea::placeholder {\n   color: #d2d6da;\n}\n</style>\n\n<noscript>',
             }}
           ></noscript>
         </Head>
