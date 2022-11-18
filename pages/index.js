@@ -55,7 +55,6 @@ const Home = (props) => {
           src="/playground_assets/lions%20mane%20bottle%20empty-300w.png"
           className="home-image01"
         />
-        <div className="home-container05"></div>
         <section className="home-features">
           <FeatureCard
             text="Best Extraction Method with the Latest Moethodology on Retaining the Beneficial Compounds"
@@ -80,16 +79,16 @@ const Home = (props) => {
             image_src="/playground_assets/credit%20card1.svg"
           ></FeatureCard>
         </section>
-        <section className="home-container06">
-          <div className="home-container07">
+        <section className="home-container05">
+          <div className="home-container06">
             <span className="home-text06">MEET MERKABA</span>
             <h1 className="home-text07">
               The South’s Leading Medicinal Mushroom Company Providing Quality
               Mushroom Tinctures
             </h1>
           </div>
-          <div className="home-container08">
-            <div className="home-container09">
+          <div className="home-container07">
+            <div className="home-container08">
               <img
                 alt="image"
                 src="https://images.unsplash.com/photo-1532634993-15f421e42ec0?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGxhYnJhdG9yeXxlbnwwfHx8fDE2Njg2MjQ2MDM&amp;ixlib=rb-4.0.3&amp;w=1100"
@@ -104,7 +103,7 @@ const Home = (props) => {
                 <br></br>
                 <span className="home-text11">-NOAA</span>
               </span>
-              <div className="home-container10">
+              <div className="home-container09">
                 <img
                   alt="image"
                   src="https://images.unsplash.com/photo-1634326599007-a108c3f5abcd?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDR8fGNvcmR5Y2Vwc3xlbnwwfHx8fDE2Njg2MjQ2ODM&amp;ixlib=rb-4.0.3&amp;w=1000"
@@ -112,13 +111,13 @@ const Home = (props) => {
                 />
               </div>
             </div>
-            <div className="home-container11">
+            <div className="home-container10">
               <img
                 alt="image"
                 src="https://images.unsplash.com/photo-1654011021856-5d590a4f6770?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDYzfHxtdXNocm9vbSUyMGZvcmFnaW5nfGVufDB8fHx8MTY2ODYyNDY2MA&amp;ixlib=rb-4.0.3&amp;w=1100"
                 className="home-image04"
               />
-              <div className="home-container12">
+              <div className="home-container11">
                 <h3 className="HeadingTwo">
                   <span className="home-text13">
                     So what does the new record for the lowest level of winter
@@ -169,9 +168,9 @@ const Home = (props) => {
           </div>
         </section>
         <section className="home-testimonials">
-          <div className="home-container13">
-            <div className="home-container14">
-              <div className="home-container15">
+          <div className="home-container12">
+            <div className="home-container13">
+              <div className="home-container14">
                 <h2 className="home-text22 HeadingOne">Work with us</h2>
                 <p className="home-text23 Lead">
                   <span className="home-text24">
@@ -190,19 +189,19 @@ const Home = (props) => {
                 </p>
                 <p className="home-text27">Mark Jojansen</p>
                 <p className="home-text28 Small">Project manager, Atlassian</p>
-                <div className="home-container16">
+                <div className="home-container15">
                   <img
                     alt="image"
                     src="/playground_assets/team-4-200h.jpg"
                     className="home-image05"
                   />
-                  <div className="home-container17"></div>
+                  <div className="home-container16"></div>
                   <img
                     alt="image"
                     src="/playground_assets/team-3-200h.jpg"
                     className="home-image06"
                   />
-                  <div className="home-container18"></div>
+                  <div className="home-container17"></div>
                   <img
                     alt="image"
                     src="/playground_assets/team-2-200h.jpg"
@@ -212,23 +211,23 @@ const Home = (props) => {
               </div>
             </div>
             <div className="home-logos">
-              <div className="home-container19">
-                <div className="home-container20">
-                  <div className="home-container21">
+              <div className="home-container18">
+                <div className="home-container19">
+                  <div className="home-container20">
                     <img
                       alt="image"
                       src="/playground_assets/logo-asana.svg"
                       className="home-image08"
                     />
                   </div>
-                  <div className="home-container22">
+                  <div className="home-container21">
                     <img
                       alt="image"
                       src="/playground_assets/logo-slack.svg"
                       className="home-image09"
                     />
                   </div>
-                  <div className="home-container23">
+                  <div className="home-container22">
                     <img
                       alt="image"
                       src="/playground_assets/logo-google-drive.svg"
@@ -236,22 +235,22 @@ const Home = (props) => {
                     />
                   </div>
                 </div>
-                <div className="home-container24">
-                  <div className="home-container25">
+                <div className="home-container23">
+                  <div className="home-container24">
                     <img
                       alt="image"
                       src="/playground_assets/logo-shopify.svg"
                       className="home-image11"
                     />
                   </div>
-                  <div className="home-container26">
+                  <div className="home-container25">
                     <img
                       alt="image"
                       src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/logos/small-logos/logo-apple.svg"
                       className="home-image12"
                     />
                   </div>
-                  <div className="home-container27">
+                  <div className="home-container26">
                     <img
                       alt="image"
                       src="/playground_assets/logo-invision.svg"
@@ -259,15 +258,15 @@ const Home = (props) => {
                     />
                   </div>
                 </div>
-                <div className="home-container28">
-                  <div className="home-container29">
+                <div className="home-container27">
+                  <div className="home-container28">
                     <img
                       alt="image"
                       src="/playground_assets/logo-attlasian.svg"
                       className="home-image14"
                     />
                   </div>
-                  <div className="home-container30">
+                  <div className="home-container29">
                     <img
                       alt="image"
                       src="/playground_assets/logo-weave.svg"
@@ -294,9 +293,9 @@ const Home = (props) => {
             className="home-top-wave-image"
           />
         </section>
-        <section className="home-container31">
-          <div className="home-container32">
-            <div className="home-container33">
+        <section className="home-container30">
+          <div className="home-container31">
+            <div className="home-container32">
               <svg viewBox="0 0 1024 1024" className="home-icon">
                 <path d="M363.722 722.052l41.298-57.816-45.254-45.256-57.818 41.296c-10.722-5.994-22.204-10.774-34.266-14.192l-11.682-70.084h-64l-11.68 70.086c-12.062 3.418-23.544 8.198-34.266 14.192l-57.818-41.298-45.256 45.256 41.298 57.816c-5.994 10.72-10.774 22.206-14.192 34.266l-70.086 11.682v64l70.086 11.682c3.418 12.060 8.198 23.544 14.192 34.266l-41.298 57.816 45.254 45.256 57.818-41.296c10.722 5.994 22.204 10.774 34.266 14.192l11.682 70.084h64l11.68-70.086c12.062-3.418 23.544-8.198 34.266-14.192l57.818 41.296 45.254-45.256-41.298-57.816c5.994-10.72 10.774-22.206 14.192-34.266l70.088-11.68v-64l-70.086-11.682c-3.418-12.060-8.198-23.544-14.192-34.266zM224 864c-35.348 0-64-28.654-64-64s28.652-64 64-64 64 28.654 64 64-28.652 64-64 64zM1024 384v-64l-67.382-12.25c-1.242-8.046-2.832-15.978-4.724-23.79l57.558-37.1-24.492-59.128-66.944 14.468c-4.214-6.91-8.726-13.62-13.492-20.13l39.006-56.342-45.256-45.254-56.342 39.006c-6.512-4.766-13.22-9.276-20.13-13.494l14.468-66.944-59.128-24.494-37.1 57.558c-7.812-1.892-15.744-3.482-23.79-4.724l-12.252-67.382h-64l-12.252 67.382c-8.046 1.242-15.976 2.832-23.79 4.724l-37.098-57.558-59.128 24.492 14.468 66.944c-6.91 4.216-13.62 8.728-20.13 13.494l-56.342-39.006-45.254 45.254 39.006 56.342c-4.766 6.51-9.278 13.22-13.494 20.13l-66.944-14.468-24.492 59.128 57.558 37.1c-1.892 7.812-3.482 15.742-4.724 23.79l-67.384 12.252v64l67.382 12.25c1.242 8.046 2.832 15.978 4.724 23.79l-57.558 37.1 24.492 59.128 66.944-14.468c4.216 6.91 8.728 13.618 13.494 20.13l-39.006 56.342 45.254 45.256 56.342-39.006c6.51 4.766 13.22 9.276 20.13 13.492l-14.468 66.944 59.128 24.492 37.102-57.558c7.81 1.892 15.742 3.482 23.788 4.724l12.252 67.384h64l12.252-67.382c8.044-1.242 15.976-2.832 23.79-4.724l37.1 57.558 59.128-24.492-14.468-66.944c6.91-4.216 13.62-8.726 20.13-13.492l56.342 39.006 45.256-45.256-39.006-56.342c4.766-6.512 9.276-13.22 13.492-20.13l66.944 14.468 24.492-59.13-57.558-37.1c1.892-7.812 3.482-15.742 4.724-23.79l67.382-12.25zM672 491.2c-76.878 0-139.2-62.322-139.2-139.2s62.32-139.2 139.2-139.2 139.2 62.322 139.2 139.2c0 76.878-62.32 139.2-139.2 139.2z"></path>
               </svg>
@@ -315,10 +314,10 @@ const Home = (props) => {
               </span>
             </span>
           </div>
-          <div className="home-container34">
-            <div className="home-container35">
-              <div className="home-container36"></div>
-              <div className="home-container37">
+          <div className="home-container33">
+            <div className="home-container34">
+              <div className="home-container35"></div>
+              <div className="home-container36">
                 <svg
                   viewBox="0 0 987.4285714285713 1024"
                   className="home-icon2"
@@ -333,7 +332,7 @@ const Home = (props) => {
                 <OutlineBlackButton button="get started"></OutlineBlackButton>
               </div>
             </div>
-            <div className="home-container38">
+            <div className="home-container37">
               <ListItem></ListItem>
               <ListItem
                 title="2. Performance Analyze"
@@ -346,8 +345,8 @@ const Home = (props) => {
             </div>
           </div>
           <div className="home-divider"></div>
-          <div className="home-container39">
-            <div className="home-container40">
+          <div className="home-container38">
+            <div className="home-container39">
               <ListItem
                 title="1. Always in Sync"
                 description="No matter where you are, Trello stays in sync across all of your devices."
@@ -361,9 +360,9 @@ const Home = (props) => {
                 description="Integrate the apps your team already uses directly into your workflow."
               ></ListItem>
             </div>
-            <div className="home-container41">
-              <div className="home-container42"></div>
-              <div className="home-container43">
+            <div className="home-container40">
+              <div className="home-container41"></div>
+              <div className="home-container42">
                 <svg viewBox="0 0 1152 1024" className="home-icon4">
                   <path d="M1088 901.166c0 45.5 26.028 84.908 64 104.184v15.938c-10.626 1.454-21.472 2.224-32.5 2.224-68.008 0-129.348-28.528-172.722-74.264-26.222 6.982-54.002 10.752-82.778 10.752-159.058 0-288-114.616-288-256s128.942-256 288-256c159.058 0 288 114.616 288 256 0 55.348-19.764 106.592-53.356 148.466-6.824 14.824-10.644 31.312-10.644 48.7zM512 0c278.458 0 504.992 180.614 511.836 405.52-49.182-21.92-103.586-33.52-159.836-33.52-95.56 0-185.816 33.446-254.138 94.178-70.846 62.972-109.862 147.434-109.862 237.822 0 44.672 9.544 87.888 27.736 127.788-5.228 0.126-10.468 0.212-15.736 0.212-27.156 0-53.81-1.734-79.824-5.044-109.978 109.978-241.25 129.7-368.176 132.596v-26.916c68.536-33.578 128-94.74 128-164.636 0-9.754-0.758-19.33-2.164-28.696-115.796-76.264-189.836-192.754-189.836-323.304 0-229.75 229.23-416 512-416z"></path>
                 </svg>
@@ -491,14 +490,6 @@ const Home = (props) => {
             object-position: right;
             border-bottom-left-radius: 10rem;
           }
-          .home-container05 {
-            flex: 0 0 auto;
-            width: 100%;
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            height: 100px;
-            display: flex;
-            align-items: flex-start;
-          }
           .home-features {
             width: 100%;
             display: flex;
@@ -511,7 +502,7 @@ const Home = (props) => {
             flex-direction: row;
             padding-bottom: var(--dl-space-space-sixunits);
           }
-          .home-container06 {
+          .home-container05 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -523,7 +514,7 @@ const Home = (props) => {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-sixunits);
           }
-          .home-container07 {
+          .home-container06 {
             display: flex;
             max-width: 70%;
             align-items: center;
@@ -549,7 +540,7 @@ const Home = (props) => {
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
           }
-          .home-container08 {
+          .home-container07 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -560,7 +551,7 @@ const Home = (props) => {
             margin-right: var(--dl-space-space-unitandahalfunit);
             flex-direction: row;
           }
-          .home-container09 {
+          .home-container08 {
             flex: 0 0 auto;
             width: 50%;
             height: 100%;
@@ -605,7 +596,7 @@ const Home = (props) => {
             font-weight: 400;
             background-color: rgb(255, 255, 255);
           }
-          .home-container10 {
+          .home-container09 {
             width: 100%;
             height: 100%;
             display: flex;
@@ -628,7 +619,7 @@ const Home = (props) => {
             border-radius: var(--dl-radius-radius-radius75);
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-container11 {
+          .home-container10 {
             flex: 0 0 auto;
             width: 40%;
             display: flex;
@@ -648,7 +639,7 @@ const Home = (props) => {
             border-radius: var(--dl-radius-radius-radius75);
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-container12 {
+          .home-container11 {
             width: 90%;
             display: flex;
             align-self: center;
@@ -688,7 +679,7 @@ const Home = (props) => {
             flex-direction: column;
             background-image: linear-gradient(310deg, #7928ca, #ff0080);
           }
-          .home-container13 {
+          .home-container12 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -702,7 +693,7 @@ const Home = (props) => {
             padding-bottom: 15rem;
             justify-content: space-between;
           }
-          .home-container14 {
+          .home-container13 {
             flex: 1;
             width: auto;
             height: auto;
@@ -710,7 +701,7 @@ const Home = (props) => {
             align-items: space-between;
             flex-direction: column;
           }
-          .home-container15 {
+          .home-container14 {
             display: flex;
             max-width: 600px;
             align-items: flex-start;
@@ -747,7 +738,7 @@ const Home = (props) => {
             color: var(--dl-color-gray-white);
             opacity: 0.8;
           }
-          .home-container16 {
+          .home-container15 {
             flex: 0 0 auto;
             display: flex;
             margin-top: var(--dl-space-space-doubleunit);
@@ -765,7 +756,7 @@ const Home = (props) => {
           .home-image05:hover {
             transform: scale(1.2);
           }
-          .home-container17 {
+          .home-container16 {
             flex: 0 0 auto;
             width: 1px;
             height: 25px;
@@ -787,7 +778,7 @@ const Home = (props) => {
           .home-image06:hover {
             transform: scale(1.2);
           }
-          .home-container18 {
+          .home-container17 {
             flex: 0 0 auto;
             width: 1px;
             height: 25px;
@@ -814,7 +805,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-container19 {
+          .home-container18 {
             flex: 0 0 auto;
             display: flex;
             min-width: 400px;
@@ -822,7 +813,7 @@ const Home = (props) => {
             padding-left: var(--dl-space-space-triplequarterunit);
             flex-direction: column;
           }
-          .home-container20 {
+          .home-container19 {
             flex: 0 0 auto;
             width: 100%;
             height: 100px;
@@ -832,7 +823,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-container21 {
+          .home-container20 {
             width: 58px;
             height: 58px;
             padding: var(--dl-space-space-unit);
@@ -845,7 +836,7 @@ const Home = (props) => {
           .home-image08 {
             width: 100%;
           }
-          .home-container22 {
+          .home-container21 {
             width: 58px;
             height: 58px;
             padding: var(--dl-space-space-unit);
@@ -856,7 +847,7 @@ const Home = (props) => {
           .home-image09 {
             width: 100%;
           }
-          .home-container23 {
+          .home-container22 {
             width: 58px;
             height: 58px;
             padding: var(--dl-space-space-unit);
@@ -869,7 +860,7 @@ const Home = (props) => {
           .home-image10 {
             width: 100%;
           }
-          .home-container24 {
+          .home-container23 {
             flex: 0 0 auto;
             width: 100%;
             height: 70px;
@@ -879,7 +870,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-container25 {
+          .home-container24 {
             width: 58px;
             height: 58px;
             padding: var(--dl-space-space-unit);
@@ -891,7 +882,7 @@ const Home = (props) => {
             width: 100%;
             object-fit: cover;
           }
-          .home-container26 {
+          .home-container25 {
             width: 58px;
             height: 58px;
             padding: var(--dl-space-space-unit);
@@ -903,7 +894,7 @@ const Home = (props) => {
           .home-image12 {
             width: 100%;
           }
-          .home-container27 {
+          .home-container26 {
             width: 58px;
             padding: var(--dl-space-space-unit);
             align-self: flex-end;
@@ -914,7 +905,7 @@ const Home = (props) => {
           .home-image13 {
             width: 100%;
           }
-          .home-container28 {
+          .home-container27 {
             flex: 0 0 auto;
             width: 50%;
             height: 70px;
@@ -924,7 +915,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-container29 {
+          .home-container28 {
             width: 58px;
             height: 58px;
             padding: var(--dl-space-space-unit);
@@ -935,7 +926,7 @@ const Home = (props) => {
           .home-image14 {
             width: 100%;
           }
-          .home-container30 {
+          .home-container29 {
             width: 58px;
             height: 58px;
             padding: var(--dl-space-space-unit);
@@ -976,7 +967,7 @@ const Home = (props) => {
             position: absolute;
             object-fit: cover;
           }
-          .home-container31 {
+          .home-container30 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -988,12 +979,12 @@ const Home = (props) => {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-sixunits);
           }
-          .home-container32 {
+          .home-container31 {
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-container33 {
+          .home-container32 {
             flex: 0 0 auto;
             width: 48px;
             height: 48px;
@@ -1036,7 +1027,7 @@ const Home = (props) => {
             white-space: normal;
             background-color: rgb(255, 255, 255);
           }
-          .home-container34 {
+          .home-container33 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1045,7 +1036,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .home-container35 {
+          .home-container34 {
             display: flex;
             position: relative;
             box-shadow: 0 8px 26px -4px hsla(0, 0%, 8%, 0.15),
@@ -1063,10 +1054,10 @@ const Home = (props) => {
             background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/team-working.jpg');
             background-position: center;
           }
-          .home-container35:hover {
+          .home-container34:hover {
             transform: scale(1.04);
           }
-          .home-container36 {
+          .home-container35 {
             top: 0px;
             left: 0px;
             right: auto;
@@ -1077,7 +1068,7 @@ const Home = (props) => {
             background: rgba(0, 0, 0, 0.4);
             border-radius: var(--dl-radius-radius-radius1);
           }
-          .home-container37 {
+          .home-container36 {
             display: flex;
             z-index: 1;
             align-items: center;
@@ -1100,7 +1091,7 @@ const Home = (props) => {
             color: var(--dl-color-gray-white);
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-container38 {
+          .home-container37 {
             display: flex;
             align-items: flex-start;
             margin-left: var(--dl-space-space-fourunits);
@@ -1119,7 +1110,7 @@ const Home = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-gray-700);
           }
-          .home-container39 {
+          .home-container38 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1128,13 +1119,13 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .home-container40 {
+          .home-container39 {
             display: flex;
             align-items: flex-start;
             margin-right: var(--dl-space-space-fourunits);
             flex-direction: column;
           }
-          .home-container41 {
+          .home-container40 {
             display: flex;
             position: relative;
             box-shadow: 0 8px 26px -4px hsla(0, 0%, 8%, 0.15),
@@ -1152,10 +1143,10 @@ const Home = (props) => {
             background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/coffee-shop.jpg');
             background-position: center;
           }
-          .home-container41:hover {
+          .home-container40:hover {
             transform: scale(1.04);
           }
-          .home-container42 {
+          .home-container41 {
             top: 0px;
             left: 0px;
             right: auto;
@@ -1166,7 +1157,7 @@ const Home = (props) => {
             background: rgba(0, 0, 0, 0.4);
             border-radius: var(--dl-radius-radius-radius1);
           }
-          .home-container43 {
+          .home-container42 {
             display: flex;
             z-index: 1;
             align-items: center;
@@ -1218,12 +1209,12 @@ const Home = (props) => {
             .home-features {
               max-width: 960px;
             }
-            .home-container06 {
+            .home-container05 {
               max-width: 960px;
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
             }
-            .home-container07 {
+            .home-container06 {
               max-width: 80%;
             }
             .home-text06 {
@@ -1232,29 +1223,29 @@ const Home = (props) => {
             .home-text08 {
               width: 50%;
             }
-            .home-container13 {
+            .home-container12 {
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
               justify-content: center;
             }
-            .home-container14 {
+            .home-container13 {
               align-items: center;
             }
-            .home-container15 {
+            .home-container14 {
               margin-right: 0px;
             }
             .home-logos {
               display: none;
             }
-            .home-container31 {
+            .home-container30 {
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
             }
-            .home-container38 {
+            .home-container37 {
               width: 45%;
               margin-left: var(--dl-space-space-unit);
             }
-            .home-container40 {
+            .home-container39 {
               width: 45%;
               margin-right: var(--dl-space-space-unit);
             }
@@ -1281,14 +1272,14 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-unitandahalfunit);
               padding-bottom: var(--dl-space-space-doubleunit);
             }
-            .home-container06 {
+            .home-container05 {
               max-width: 720px;
             }
-            .home-container08 {
+            .home-container07 {
               align-items: center;
               flex-direction: column;
             }
-            .home-container09 {
+            .home-container08 {
               width: 80%;
             }
             .home-image02 {
@@ -1304,26 +1295,26 @@ const Home = (props) => {
             .home-image03 {
               display: none;
             }
-            .home-container11 {
+            .home-container10 {
               width: 80%;
             }
             .home-image04 {
               display: none;
             }
-            .home-container13 {
+            .home-container12 {
               padding-top: 12rem;
               padding-bottom: 12rem;
             }
-            .home-container32 {
+            .home-container31 {
               width: 80%;
             }
             .home-text33 {
               text-align: center;
             }
-            .home-container34 {
+            .home-container33 {
               flex-direction: column;
             }
-            .home-container38 {
+            .home-container37 {
               width: 80%;
               margin-top: var(--dl-space-space-fourunits);
               align-items: center;
@@ -1333,11 +1324,11 @@ const Home = (props) => {
               margin-top: var(--dl-space-space-doubleunit);
               margin-bottom: var(--dl-space-space-doubleunit);
             }
-            .home-container39 {
+            .home-container38 {
               margin-top: 0px;
               flex-direction: column;
             }
-            .home-container40 {
+            .home-container39 {
               width: 80%;
               align-items: center;
               margin-right: 0px;
@@ -1359,7 +1350,7 @@ const Home = (props) => {
             .home-features {
               width: 100%;
             }
-            .home-container13 {
+            .home-container12 {
               padding-top: var(--dl-space-space-sixunits);
               padding-bottom: var(--dl-space-space-sixunits);
             }
