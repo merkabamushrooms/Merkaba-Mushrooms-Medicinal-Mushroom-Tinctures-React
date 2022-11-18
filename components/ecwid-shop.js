@@ -7,9 +7,10 @@ const EcwidShop = (props) => {
   return (
     <>
       <div className={`ecwid-shop-container ${props.rootClassName} `}>
-        <div>
-          <DangerousHTML
-            html={`<div id="my-store-78742521"></div>
+        <div className="ecwid-shop-container1">
+          <div>
+            <DangerousHTML
+              html={`<div id="my-store-78742521"></div>
 <div>
     <script data-cfasync="false" type="text/javascript"
         src="https://app.ecwid.com/script.js?78742521&data_platform=code&data_date=2022-11-18" charset="utf-8"></script>
@@ -17,7 +18,8 @@ const EcwidShop = (props) => {
         xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-78742521");
     </script>
 </div>`}
-          ></DangerousHTML>
+            ></DangerousHTML>
+          </div>
         </div>
       </div>
       <style jsx>
@@ -30,6 +32,13 @@ const EcwidShop = (props) => {
             align-items: center;
             flex-direction: column;
             justify-content: center;
+          }
+          .ecwid-shop-container1 {
+            flex: 0 0 auto;
+            width: auto;
+            height: auto;
+            display: flex;
+            align-items: flex-start;
           }
         `}
       </style>
