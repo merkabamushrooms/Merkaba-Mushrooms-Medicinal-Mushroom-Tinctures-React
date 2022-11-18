@@ -27,6 +27,7 @@ const EcwidShop = (props) => {
             width: 100%;
             height: 400px;
             display: flex;
+            padding: var(--dl-space-space-unit);
             position: relative;
             align-items: center;
             flex-direction: column;

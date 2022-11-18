@@ -20,7 +20,7 @@ const Shop = (props) => {
         <Header></Header>
         <div className="shop-main">
           <div className="shop-container1">
-            <h1 className="shop-text">About</h1>
+            <h1 className="shop-text">Shop</h1>
             <h1 className="shop-text1 HeadingOne">Merkaba Mushroom&apos;s</h1>
             <p className="shop-text2 Lead">
               <span className="shop-text3">
@@ -37,90 +37,8 @@ const Shop = (props) => {
               <SecondaryButton button="Subscribe"></SecondaryButton>
             </div>
           </div>
-          <div className="shop-grid">
-            <img
-              alt="image"
-              src="/playground_assets/iphone-3-1000w.png"
-              className="shop-image"
-            />
-            <img
-              alt="image"
-              src="/playground_assets/iphone-2-1000w.png"
-              className="shop-image01"
-            />
-            <img
-              alt="image"
-              src="/playground_assets/iphone-4-1000w.png"
-              className="shop-image02"
-            />
-            <img
-              alt="image"
-              src="/playground_assets/iphone-1-1000w.png"
-              className="shop-image03"
-            />
-            <img
-              alt="image"
-              src="/playground_assets/iphone-2-1000w.png"
-              className="shop-image04"
-            />
-            <img
-              alt="image"
-              src="/playground_assets/iphone-4-1000w.png"
-              className="shop-image05"
-            />
-            <img
-              alt="image"
-              src="/playground_assets/iphone-1-1000w.png"
-              className="shop-image06"
-            />
-            <img
-              alt="image"
-              src="/playground_assets/iphone-3-1000w.png"
-              className="shop-image07"
-            />
-            <img
-              alt="image"
-              src="/playground_assets/iphone-2-1000w.png"
-              className="shop-image08"
-            />
-            <img
-              alt="image"
-              src="/playground_assets/iphone-4-1000w.png"
-              className="shop-image09"
-            />
-            <img
-              alt="image"
-              src="/playground_assets/iphone-1-1000w.png"
-              className="shop-image10"
-            />
-            <img
-              alt="image"
-              src="/playground_assets/iphone-3-1000w.png"
-              className="shop-image11"
-            />
-            <img
-              alt="image"
-              src="/playground_assets/iphone-4-1000w.png"
-              className="shop-image12"
-            />
-            <img
-              alt="image"
-              src="/playground_assets/iphone-1-1000w.png"
-              className="shop-image13"
-            />
-            <img
-              alt="image"
-              src="/playground_assets/iphone-3-1000w.png"
-              className="shop-image14"
-            />
-            <img
-              alt="image"
-              src="/playground_assets/iphone-2-1000w.png"
-              className="shop-image15"
-            />
-          </div>
+          <EcwidShop rootClassName="ecwid-shop-root-class-name"></EcwidShop>
         </div>
-        <EcwidShop rootClassName="ecwid-shop-root-class-name"></EcwidShop>
         <FooterGray></FooterGray>
       </div>
       <style jsx>
@@ -146,7 +64,7 @@ const Shop = (props) => {
             margin-top: var(--dl-space-space-fourunits);
             align-items: center;
             margin-bottom: var(--dl-space-space-fourunits);
-            flex-direction: row;
+            flex-direction: column;
             justify-content: flex-end;
           }
           .shop-container1 {
@@ -209,72 +127,6 @@ const Shop = (props) => {
             box-shadow: 0 0 0 2px #e9aede;
             border-color: var(--dl-color-pink-200);
           }
-          .shop-grid {
-            top: -20%;
-            left: -35%;
-            width: 70%;
-            display: grid;
-            grid-gap: var(--dl-space-space-doubleunit);
-            position: absolute;
-            transform: rotate(20deg);
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-          }
-          .shop-image {
-            width: 100%;
-          }
-          .shop-image01 {
-            width: 100%;
-            margin-top: -200px;
-          }
-          .shop-image02 {
-            width: 100%;
-            margin-top: -50px;
-          }
-          .shop-image03 {
-            width: 100%;
-          }
-          .shop-image04 {
-            width: 100%;
-          }
-          .shop-image05 {
-            width: 100%;
-            margin-top: -200px;
-          }
-          .shop-image06 {
-            width: 100%;
-            margin-top: -50px;
-          }
-          .shop-image07 {
-            width: 100%;
-            z-index: 1;
-          }
-          .shop-image08 {
-            width: 100%;
-          }
-          .shop-image09 {
-            width: 100%;
-            margin-top: -200px;
-          }
-          .shop-image10 {
-            width: 100%;
-            margin-top: -50px;
-          }
-          .shop-image11 {
-            width: 100%;
-          }
-          .shop-image12 {
-            width: 100%;
-          }
-          .shop-image13 {
-            width: 100%;
-            margin-top: -200px;
-          }
-          .shop-image14 {
-            width: 100%;
-          }
-          .shop-image15 {
-            width: 100%;
-          }
           @media (max-width: 991px) {
             .shop-main {
               justify-content: flex-start;
@@ -289,116 +141,10 @@ const Shop = (props) => {
               margin-bottom: 0px;
               padding-right: var(--dl-space-space-tripleunit);
             }
-            .shop-grid {
-              top: 40%;
-              left: auto;
-              right: -6rem;
-              bottom: -6rem;
-            }
-            .shop-image {
-              width: 120px;
-            }
-            .shop-image01 {
-              width: 120px;
-            }
-            .shop-image02 {
-              width: 120px;
-            }
-            .shop-image03 {
-              width: 120px;
-            }
-            .shop-image04 {
-              width: 120px;
-            }
-            .shop-image05 {
-              width: 120px;
-            }
-            .shop-image06 {
-              width: 120px;
-            }
-            .shop-image07 {
-              width: 120px;
-            }
-            .shop-image08 {
-              width: 120px;
-            }
-            .shop-image09 {
-              width: 120px;
-            }
-            .shop-image10 {
-              width: 120px;
-            }
-            .shop-image11 {
-              width: 120px;
-            }
-            .shop-image12 {
-              width: 120px;
-            }
-            .shop-image13 {
-              width: 120px;
-            }
-            .shop-image14 {
-              width: 120px;
-              margin-top: -50px;
-            }
-            .shop-image15 {
-              width: 120px;
-            }
           }
           @media (max-width: 767px) {
             .shop-container1 {
               width: 100%;
-            }
-            .shop-grid {
-              right: 0;
-            }
-            .shop-image {
-              width: 100px;
-            }
-            .shop-image01 {
-              width: 100px;
-            }
-            .shop-image02 {
-              width: 100px;
-            }
-            .shop-image03 {
-              width: 100px;
-            }
-            .shop-image04 {
-              width: 100px;
-            }
-            .shop-image05 {
-              width: 100px;
-            }
-            .shop-image06 {
-              width: 100px;
-            }
-            .shop-image07 {
-              width: 100px;
-            }
-            .shop-image08 {
-              width: 100px;
-            }
-            .shop-image09 {
-              width: 100px;
-            }
-            .shop-image10 {
-              width: 100px;
-            }
-            .shop-image11 {
-              width: 100px;
-            }
-            .shop-image12 {
-              width: 100px;
-            }
-            .shop-image13 {
-              width: 100px;
-            }
-            .shop-image14 {
-              width: 100px;
-            }
-            .shop-image15 {
-              width: 100px;
             }
           }
           @media (max-width: 479px) {
