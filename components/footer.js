@@ -224,6 +224,7 @@ const Footer = (props) => {
             display: flex;
             position: absolute;
             align-items: flex-end;
+            padding-bottom: var(--dl-space-space-unit);
             background-size: cover;
             justify-content: center;
             background-image: url('/playground_assets/waves-white.svg');
@@ -231,6 +232,7 @@ const Footer = (props) => {
           }
           .footer-text14 {
             color: #ffffff;
+            padding-top: var(--dl-space-space-unit);
           }
           @media (max-width: 991px) {
             .footer-container {

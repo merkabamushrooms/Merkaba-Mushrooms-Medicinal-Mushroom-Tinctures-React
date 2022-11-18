@@ -256,28 +256,19 @@ const AboutUs = (props) => {
           </h1>
           <div className="about-us-container13">
             <BlogCard></BlogCard>
-            <BlogCard
-              image_src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/color-clock.jpg"
-              description="Venture investment in U.S. startups rose sequentially in the second quarter of 2017, boosted by large, ate-stage financings"
-            ></BlogCard>
-            <BlogCard
-              title="MateLabs machine learning"
-              image_src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/color-wall.jpg"
-              description="If you’ve ever wanted to train a machine learning model and integrate it with IFTTT, you now can with"
-            ></BlogCard>
+            <BlogCard image_src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/color-clock.jpg"></BlogCard>
+            <BlogCard title="MateLabs machine learning"></BlogCard>
             <div className="about-us-container14">
               <div className="about-us-card">
                 <div className="about-us-container15">
                   <h1 className="about-us-text34">Flexible work hours</h1>
                   <span className="about-us-text35">
-                    <span className="about-us-text36">
-                      Rather than worrying about switching offices every couple
-                      years, you stay in the same place.
-                    </span>
+                    Rather than worrying about switching offices every couple
+                    years, you stay in the same place.
                   </span>
                   <div className="about-us-container16">
                     <button className="about-us-button button">
-                      <span className="about-us-text37">Read more</span>
+                      <span className="about-us-text36">Read more</span>
                       <svg viewBox="0 0 1024 1024" className="about-us-icon">
                         <path d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"></path>
                       </svg>
@@ -292,20 +283,20 @@ const AboutUs = (props) => {
         <div className="about-us-contact">
           <div className="about-us-container18">
             <div className="about-us-form">
-              <h2 className="about-us-text38 HeadingOne">
+              <h2 className="about-us-text37 HeadingOne">
                 <span>Say Hi!</span>
               </h2>
-              <span className="about-us-text40 Lead">
+              <span className="about-us-text39 Lead">
                 We&apos;d like to talk with you.
               </span>
               <form className="about-us-form1">
-                <label className="about-us-text41 Label">My name is</label>
+                <label className="about-us-text40 Label">My name is</label>
                 <input
                   type="text"
                   placeholder="Full Name"
                   className="about-us-textinput1 Small input"
                 />
-                <label className="about-us-text42 Label">
+                <label className="about-us-text41 Label">
                   I&apos;m looking for
                 </label>
                 <input
@@ -313,7 +304,7 @@ const AboutUs = (props) => {
                   placeholder="What you love"
                   className="about-us-textinput2 Small input"
                 />
-                <label className="about-us-text43 Label">Your message</label>
+                <label className="about-us-text42 Label">Your message</label>
                 <textarea
                   rows="8"
                   placeholder="I want to say that..."
@@ -339,7 +330,7 @@ const AboutUs = (props) => {
                   </span>
                   <span>Information</span>
                 </h3>
-                <span className="about-us-text47">
+                <span className="about-us-text46">
                   Fill up the form and our Team will get back to you within 24
                   hours.
                 </span>
@@ -370,7 +361,7 @@ const AboutUs = (props) => {
                     <svg viewBox="0 0 1024 1024" className="about-us-icon06">
                       <path d="M512 490q44 0 75-31t31-75-31-75-75-31-75 31-31 75 31 75 75 31zM512 86q124 0 211 87t87 211q0 62-31 142t-75 150-87 131-73 97l-32 34q-12-14-32-37t-72-92-91-134-71-147-32-144q0-124 87-211t211-87z"></path>
                     </svg>
-                    <span className="about-us-text48 Small">
+                    <span className="about-us-text47 Small">
                       Dyonisie Wolf Bucharest, RO 010458
                     </span>
                   </div>
@@ -860,12 +851,8 @@ const AboutUs = (props) => {
           .about-us-text35 {
             color: var(--dl-color-gray-white);
             margin-top: var(--dl-space-space-unit);
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .about-us-text36 {
-            display: inline;
             font-weight: 400;
-            white-space: normal;
+            margin-bottom: var(--dl-space-space-unit);
           }
           .about-us-container16 {
             display: flex;
@@ -882,7 +869,7 @@ const AboutUs = (props) => {
             padding-bottom: var(--dl-space-space-halfunit);
             background-color: transparent;
           }
-          .about-us-text37 {
+          .about-us-text36 {
             color: var(--dl-color-gray-white);
             margin-right: var(--dl-space-space-halfunit);
           }
@@ -936,11 +923,11 @@ const AboutUs = (props) => {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-fourunits);
           }
-          .about-us-text38 {
+          .about-us-text37 {
             color: var(--dl-color-secondary-500);
             margin-bottom: var(--dl-space-space-unit);
           }
-          .about-us-text40 {
+          .about-us-text39 {
             margin-bottom: var(--dl-space-space-doubleunit);
           }
           .about-us-form1 {
@@ -949,7 +936,7 @@ const AboutUs = (props) => {
             display: flex;
             flex-direction: column;
           }
-          .about-us-text41 {
+          .about-us-text40 {
             color: var(--dl-color-secondary-500);
             margin-top: var(--dl-space-space-unit);
             margin-bottom: var(--dl-space-space-halfunit);
@@ -970,7 +957,7 @@ const AboutUs = (props) => {
             box-shadow: 0 0 0 2px #e9aede;
             border-color: var(--dl-color-pink-200);
           }
-          .about-us-text42 {
+          .about-us-text41 {
             color: var(--dl-color-secondary-500);
             margin-top: var(--dl-space-space-unit);
             margin-bottom: var(--dl-space-space-halfunit);
@@ -991,7 +978,7 @@ const AboutUs = (props) => {
             box-shadow: 0 0 0 2px #e9aede;
             border-color: var(--dl-color-pink-200);
           }
-          .about-us-text43 {
+          .about-us-text42 {
             color: var(--dl-color-secondary-500);
             margin-top: var(--dl-space-space-unit);
             margin-bottom: var(--dl-space-space-halfunit);
@@ -1044,7 +1031,7 @@ const AboutUs = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .about-us-text47 {
+          .about-us-text46 {
             opacity: 0.8;
           }
           .about-us-container22 {
@@ -1103,7 +1090,7 @@ const AboutUs = (props) => {
             height: 24px;
             margin-right: var(--dl-space-space-unit);
           }
-          .about-us-text48 {
+          .about-us-text47 {
             opacity: 0.8;
           }
           .about-us-container26 {

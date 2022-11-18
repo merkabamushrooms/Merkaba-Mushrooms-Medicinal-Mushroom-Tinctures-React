@@ -63,15 +63,8 @@ const Profile1 = (props) => {
           </h1>
           <div className="profile1-container04">
             <BlogCard></BlogCard>
-            <BlogCard
-              image_src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/color-clock.jpg"
-              description="Venture investment in U.S. startups rose sequentially in the second quarter of 2017, boosted by large, ate-stage financings"
-            ></BlogCard>
-            <BlogCard
-              title="MateLabs machine learning"
-              image_src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/color-wall.jpg"
-              description="If you’ve ever wanted to train a machine learning model and integrate it with IFTTT, you now can with"
-            ></BlogCard>
+            <BlogCard></BlogCard>
+            <BlogCard title="MateLabs machine learning"></BlogCard>
             <div className="profile1-container05">
               <div className="profile1-card">
                 <div className="profile1-container06">

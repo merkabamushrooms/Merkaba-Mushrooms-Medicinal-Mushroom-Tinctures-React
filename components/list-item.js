@@ -31,8 +31,8 @@ const ListItem = (props) => {
 
 ListItem.defaultProps = {
   description:
-    'Gain access to the demographics, psychographics, and location of unique people who are interested and talk about your brand.',
-  new_prop: '1. Listen to Social Conversations',
+    'Check to see if it states if there\'s any existing "beta-glucans. "',
+  new_prop: '1. See the active ingredients',
 }
 
 ListItem.propTypes = {

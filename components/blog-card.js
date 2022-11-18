@@ -58,7 +58,7 @@ BlogCard.defaultProps = {
     "Merkaba Mushroom's are paving the way to Cure the Heart of America by Bringing Awareness and Providing an Accesible Way for any Person to Benefit off of Medicinal Mushrooms.",
   new_prop: 'Merkaba raised $65 million in Grants',
   image_src:
-    'https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/color-bags.jpg',
+    'https://images.unsplash.com/photo-1566216867955-5b2e8c77e45f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIyfHx0aW5jdHVyZXxlbnwwfHx8fDE2Njg4MDkyOTA&ixlib=rb-4.0.3&w=300',
 }
 
 BlogCard.propTypes = {
