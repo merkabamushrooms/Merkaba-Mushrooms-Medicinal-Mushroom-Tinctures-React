@@ -7,7 +7,6 @@ const EcwidShop = (props) => {
   return (
     <>
       <div className={`ecwid-shop-container ${props.rootClassName} `}>
-        <div className="ecwid-shop-container1"></div>
         <div className="ecwid-shop-div">
           <DangerousHTML
             html={`<div id="my-store-78742521"></div>
@@ -33,14 +32,6 @@ const EcwidShop = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .ecwid-shop-container1 {
-            flex: 0 0 auto;
-            width: auto;
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            height: auto;
-            display: flex;
-            align-items: flex-start;
-          }
           .ecwid-shop-div {
             max-width: 1100px;
           }
@@ -51,9 +42,6 @@ const EcwidShop = (props) => {
             }
           }
           @media (max-width: 767px) {
-            .ecwid-shop-container1 {
-              padding: var(--dl-space-space-unit);
-            }
             .ecwid-shop-div {
               max-width: 776px;
             }

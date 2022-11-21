@@ -26,8 +26,8 @@ const Learn = (props) => {
           <div className="learn-container02">
             <div className="learn-container03">
               <img
-                src="/playground_assets/logowhtasset%202-200w.png"
                 alt="image"
+                src="/playground_assets/logowhtasset%202-200w.png"
                 className="learn-image"
               />
             </div>
