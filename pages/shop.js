@@ -1,9 +1,10 @@
 import React from 'react'
 import Head from 'next/head'
 
+import DangerousHTML from 'dangerous-html/react'
+
 import Header from '../components/header'
 import SecondaryButton from '../components/secondary-button'
-import EcwidShop from '../components/ecwid-shop'
 import FooterGray from '../components/footer-gray'
 
 const Shop = (props) => {
@@ -37,7 +38,18 @@ const Shop = (props) => {
               <SecondaryButton button="Subscribe"></SecondaryButton>
             </div>
           </div>
-          <EcwidShop rootClassName="ecwid-shop-root-class-name"></EcwidShop>
+          <div>
+            <DangerousHTML
+              html={`<div id="my-store-78742521"></div>
+<div>
+    <script data-cfasync="false" type="text/javascript"
+        src="https://app.ecwid.com/script.js?78742521&data_platform=code&data_date=2022-11-18" charset="utf-8"></script>
+    <script type="text/javascript">
+        xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-78742521");
+    </script>
+</div>`}
+            ></DangerousHTML>
+          </div>
         </div>
         <FooterGray></FooterGray>
       </div>
