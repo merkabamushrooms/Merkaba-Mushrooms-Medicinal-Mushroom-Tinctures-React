@@ -41,23 +41,27 @@ const Header = (props) => {
               <Link href="/learn">
                 <a className="header-link04 Large">Learn</a>
               </Link>
-              <Link href="/shop">
-                <a className="header-link05">
-                  <span className="Large header-text2">Shop</span>
-                  <br></br>
-                </a>
-              </Link>
+              <a
+                href="https://store-1.vercel.app/shop#!/~/"
+                className="header-link05"
+              >
+                <span className="Large header-text2">Shop</span>
+                <br></br>
+              </a>
             </div>
             <div className="header-container2">
               <div className="header-container3">
-                <Link href="/shop">
-                  <a className="header-link06">
-                    <PrimaryPinkButton
-                      button="buy now"
-                      className="header-component"
-                    ></PrimaryPinkButton>
-                  </a>
-                </Link>
+                <a
+                  href="https://store-1.vercel.app/shop#!/~/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="header-link06"
+                >
+                  <PrimaryPinkButton
+                    button="buy now"
+                    className="header-component"
+                  ></PrimaryPinkButton>
+                </a>
               </div>
               <div data-role="BurgerMenu" className="header-burger-menu">
                 <svg viewBox="0 0 1024 1024" className="header-icon">
