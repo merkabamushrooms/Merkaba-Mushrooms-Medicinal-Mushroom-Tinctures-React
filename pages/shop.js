@@ -19,10 +19,9 @@ const Shop = (props) => {
         </Head>
         <Header></Header>
         <div className="shop-container1">
-          <div className="shop-container2">
-            <div className="shop-div">
-              <DangerousHTML
-                html={`<div id="my-store-78742521"></div>
+          <div className="shop-div">
+            <DangerousHTML
+              html={`<div id="my-store-78742521"></div>
 <div>
     <script data-cfasync="false" type="text/javascript"
         src="https://app.ecwid.com/script.js?78742521&data_platform=code&data_date=2022-11-18" charset="utf-8"></script>
@@ -30,8 +29,7 @@ const Shop = (props) => {
         xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-78742521");
     </script>
 </div>`}
-              ></DangerousHTML>
-            </div>
+            ></DangerousHTML>
           </div>
         </div>
         <FooterGray></FooterGray>
@@ -55,16 +53,6 @@ const Shop = (props) => {
             margin-top: var(--dl-space-space-sixunits);
             align-items: flex-start;
           }
-          .shop-container2 {
-            width: 100%;
-            height: 400px;
-            display: flex;
-            padding: var(--dl-space-space-unit);
-            position: relative;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-          }
           .shop-div {
             max-width: auto;
           }
@@ -76,12 +64,6 @@ const Shop = (props) => {
           @media (max-width: 767px) {
             .shop-div {
               max-width: 776px;
-            }
-          }
-          @media (max-width: 479px) {
-            .shop-container2 {
-              height: 100%;
-              max-width: 478px;
             }
           }
         `}
