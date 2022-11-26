@@ -18,11 +18,11 @@ const Shop = (props) => {
           />
         </Head>
         <Header></Header>
-        <main className="shop-container1">
-          <div className="shop-code-embed">
+        <main className="shop-main">
+          <div id="my-store-78742521" className="shop-ecwid">
             <DangerousHTML
-              html={`<div id="my-store-78742521"></div>
-<div>
+              id="my-store-78742521"
+              html={`<div>
     <script data-cfasync="false" type="text/javascript"
         src="https://app.ecwid.com/script.js?78742521&data_platform=code&data_date=2022-11-18" charset="utf-8"></script>
     <script type="text/javascript">
@@ -46,7 +46,7 @@ const Shop = (props) => {
             justify-content: flex-start;
             background-color: var(--dl-color-gray-900);
           }
-          .shop-container1 {
+          .shop-main {
             flex: initial;
             width: auto;
             display: flex;
@@ -55,16 +55,16 @@ const Shop = (props) => {
             align-items: stretch;
             justify-content: space-between;
           }
-          .shop-code-embed {
+          .shop-ecwid {
             max-width: auto;
           }
           @media (max-width: 991px) {
-            .shop-code-embed {
+            .shop-ecwid {
               max-width: 991px;
             }
           }
           @media (max-width: 767px) {
-            .shop-code-embed {
+            .shop-ecwid {
               max-width: 776px;
             }
           }
