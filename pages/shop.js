@@ -50,25 +50,37 @@ const Shop = (props) => {
             background-color: var(--dl-color-gray-900);
           }
           .shop-main {
-            flex: initial;
-            width: auto;
+            width: 100%;
+            height: 100%;
             display: flex;
-            flex-wrap: wrap;
+            max-width: 1100px;
             margin-top: var(--dl-space-space-sixunits);
             align-items: stretch;
+            flex-direction: column;
             justify-content: space-between;
           }
           .shop-ecwid {
             max-width: auto;
           }
           @media (max-width: 991px) {
+            .shop-main {
+              max-width: 900px;
+            }
             .shop-ecwid {
               max-width: 991px;
             }
           }
           @media (max-width: 767px) {
+            .shop-main {
+              max-width: 700px;
+            }
             .shop-ecwid {
               max-width: 776px;
+            }
+          }
+          @media (max-width: 479px) {
+            .shop-main {
+              max-width: 450px;
             }
           }
         `}

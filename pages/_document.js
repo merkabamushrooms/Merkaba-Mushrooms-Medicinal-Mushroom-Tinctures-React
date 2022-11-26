@@ -43,7 +43,7 @@ class CustomDocument extends Document {
           <noscript
             dangerouslySetInnerHTML={{
               __html:
-                '</noscript><style>\nhtml * {\n    -webkit-font-smoothing: antialiased;\n}\ninput::placeholder, textarea::placeholder {\n   color: #d2d6da;\n}\n</style>\n\n\n<!-- Via markup -->\n<link rel="preload" href="/shop.module.css" as="style">\n<!-- Via JavaScript -->\n<script>\n    var res = document.createElement("link");\n    res.rel = "preload";\n    res.as = "style";\n    res.href = "\'/shop.module.css";\n    document.head.appendChild(res);\n</script>\n<noscript>',
+                '</noscript><style>\nhtml * {\n    -webkit-font-smoothing: antialiased;\n}\ninput::placeholder, textarea::placeholder {\n   color: #d2d6da;\n}\n</style>\n\n<noscript>',
             }}
           ></noscript>
         </Head>
