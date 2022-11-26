@@ -42,7 +42,9 @@ const Header = (props) => {
                 <a className="header-link04 Large">Learn</a>
               </Link>
               <a
-                href="https://store-1.vercel.app/shop#!/~/"
+                href="https://merkaba-mushrooms-premium-tinctures-react.vercel.app/shop#!/~/"
+                target="_blank"
+                rel="noreferrer noopener"
                 className="header-link05"
               >
                 <span className="Large header-text2">Shop</span>
@@ -52,9 +54,7 @@ const Header = (props) => {
             <div className="header-container2">
               <div className="header-container3">
                 <a
-                  href="https://store-1.vercel.app/shop#!/~/"
-                  target="_blank"
-                  rel="noreferrer noopener"
+                  href="https://merkaba-mushrooms-premium-tinctures-react.vercel.app/shop#!/~/"
                   className="header-link06"
                 >
                   <PrimaryPinkButton
