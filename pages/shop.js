@@ -21,7 +21,8 @@ const Shop = (props) => {
         <div className="shop-container1">
           <div className="shop-div">
             <DangerousHTML
-              html={`<div id="my-store-78742521"></div>
+              html={`
+<div id="my-store-78742521"></div>
 <div>
     <script data-cfasync="false" type="text/javascript"
         src="https://app.ecwid.com/script.js?78742521&data_platform=code&data_date=2022-11-18" charset="utf-8"></script>
