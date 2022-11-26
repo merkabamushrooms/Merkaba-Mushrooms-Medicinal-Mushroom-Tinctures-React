@@ -43,7 +43,7 @@ class CustomDocument extends Document {
           <noscript
             dangerouslySetInnerHTML={{
               __html:
-                '</noscript><style>\nhtml * {\n    -webkit-font-smoothing: antialiased;\n}\ninput::placeholder, textarea::placeholder {\n   color: #d2d6da;\n}\n</style>\n\n\n<noscript>',
+                '</noscript><style>\nhtml * {\n    -webkit-font-smoothing: antialiased;\n}\ninput::placeholder, textarea::placeholder {\n   color: #d2d6da;\n}\n</style>\n\n<link rel="prerender" href="https://app.ecwid.com/script.js?78742521&data_platform=code&data_date=2022-11-18">\n<noscript>',
             }}
           ></noscript>
         </Head>

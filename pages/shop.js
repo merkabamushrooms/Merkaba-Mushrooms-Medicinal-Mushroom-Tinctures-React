@@ -2,7 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 
 import Header from '../components/header'
-import ProductCatagory from '../components/product-catagory'
+import EcwidShop from '../components/ecwid-shop'
 import FooterGray from '../components/footer-gray'
 
 const Shop = (props) => {
@@ -17,7 +17,9 @@ const Shop = (props) => {
           />
         </Head>
         <Header></Header>
-        <ProductCatagory></ProductCatagory>
+        <div className="shop-container1">
+          <EcwidShop rootClassName="ecwid-shop-root-class-name"></EcwidShop>
+        </div>
         <FooterGray></FooterGray>
       </div>
       <style jsx>
@@ -31,6 +33,13 @@ const Shop = (props) => {
             flex-direction: column;
             justify-content: flex-start;
             background-color: var(--dl-color-gray-900);
+          }
+          .shop-container1 {
+            flex: 0 0 auto;
+            width: 100%;
+            display: flex;
+            margin-top: var(--dl-space-space-sixunits);
+            align-items: flex-start;
           }
         `}
       </style>
