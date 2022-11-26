@@ -35,7 +35,6 @@ const EcwidShop = (props) => {
           .ecwid-shop-div {
             max-width: auto;
           }
-
           @media (max-width: 991px) {
             .ecwid-shop-div {
               max-width: 991px;
