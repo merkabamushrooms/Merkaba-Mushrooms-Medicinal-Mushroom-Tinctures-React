@@ -5,6 +5,7 @@ import Header from '../components/header'
 import PrimaryPinkButton from '../components/primary-pink-button'
 import OutlineGrayButton from '../components/outline-gray-button'
 import FeatureCard from '../components/feature-card'
+import Component2 from '../components/component2'
 import OutlineBlackButton from '../components/outline-black-button'
 import ListItem from '../components/list-item'
 import FooterGray from '../components/footer-gray'
@@ -26,11 +27,11 @@ const Home = (props) => {
             <div className="home-card">
               <div className="home-container02">
                 <h1 className="home-text">Merkaba Mushrooms</h1>
-                <h1 className="home-text01">
+                <h2 className="home-text01">
                   <span className="HeadingOne">A New Way to Cultivate </span>
                   <span className="HeadingOne">Your Mind and Body</span>
                   <br></br>
-                </h1>
+                </h2>
                 <span className="home-text05">
                   Fruiting Body only tinctures specifically formulated to taste
                   good and make you feel good
@@ -79,106 +80,19 @@ const Home = (props) => {
             image_src="/playground_assets/credit%20card1.svg"
           ></FeatureCard>
         </section>
-        <section className="home-container05">
-          <div className="home-container06">
-            <span className="home-text06">MEET MERKABA</span>
-            <h1 className="home-text07">
-              The South’s Leading Medicinal Mushroom Company Providing Quality
-              Mushroom Tinctures
-            </h1>
-          </div>
-          <div className="home-container07">
-            <div className="home-container08">
-              <img
-                alt="image"
-                src="https://images.unsplash.com/photo-1532634993-15f421e42ec0?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGxhYnJhdG9yeXxlbnwwfHx8fDE2Njg2MjQ2MDM&amp;ixlib=rb-4.0.3&amp;w=1100"
-                className="home-image02"
-              />
-              <span className="home-text08 Small">
-                <span className="home-text09">
-                  &quot;Over the span of the satellite record, Arctic sea ice
-                  has been declining significantly, while sea ice in the
-                  Antarctichas increased very slightly&quot;
-                </span>
-                <br></br>
-                <span className="home-text11">-NOAA</span>
-              </span>
-              <div className="home-container09">
-                <img
-                  alt="image"
-                  src="https://images.unsplash.com/photo-1634326599007-a108c3f5abcd?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDR8fGNvcmR5Y2Vwc3xlbnwwfHx8fDE2Njg2MjQ2ODM&amp;ixlib=rb-4.0.3&amp;w=1000"
-                  className="home-image03"
-                />
-              </div>
-            </div>
-            <div className="home-container10">
-              <img
-                alt="image"
-                src="https://images.unsplash.com/photo-1654011021856-5d590a4f6770?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDYzfHxtdXNocm9vbSUyMGZvcmFnaW5nfGVufDB8fHx8MTY2ODYyNDY2MA&amp;ixlib=rb-4.0.3&amp;w=1100"
-                className="home-image04"
-              />
-              <div className="home-container11">
-                <h3 className="HeadingTwo">
-                  <span className="home-text13">
-                    So what does the new record for the lowest level of winter
-                    ice actually mean
-                  </span>
-                </h3>
-                <p>
-                  <br></br>
-                  <span className="home-text15">
-                    The Arctic Ocean freezes every winter and much of the
-                    sea-ice then thaws every summer, and that process will
-                    continue whatever happens with climate change. Even if the
-                    Arctic continues to be one of the fastest-warming regions of
-                    the world, it will always be plunged into bitterly cold
-                    polar dark every winter. And year-by-year, for all kinds of
-                    natural reasons, there’s huge variety of the state of the
-                    ice.
-                  </span>
-                  <br></br>
-                  <span></span>
-                  <br></br>
-                  <span className="home-text18">
-                    For a start, it does not automatically follow that a record
-                    amount of ice will melt this summer. More important for
-                    determining the size of the annual thaw is the state of the
-                    weather as the midnight sun approaches and temperatures
-                    rise. But over the more than 30 years of satellite records,
-                    scientists have observed a clear pattern of decline,
-                    decade-by-decade.
-                  </span>
-                  <br></br>
-                  <span></span>
-                  <br></br>
-                  <span className="home-text21">
-                    The Arctic Ocean freezes every winter and much of the
-                    sea-ice then thaws every summer, and that process will
-                    continue whatever happens with climate change. Even if the
-                    Arctic continues to be one of the fastest-warming regions of
-                    the world, it will always be plunged into bitterly cold
-                    polar dark every winter. And year-by-year, for all kinds of
-                    natural reasons, there’s huge variety of the state of the
-                    ice.
-                  </span>
-                  <br></br>
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
+        <Component2></Component2>
         <section className="home-testimonials">
-          <div className="home-container12">
-            <div className="home-container13">
-              <div className="home-container14">
-                <h2 className="home-text22 HeadingOne">Work with us</h2>
-                <p className="home-text23 Lead">
-                  <span className="home-text24">
+          <div className="home-container05">
+            <div className="home-container06">
+              <div className="home-container07">
+                <h2 className="home-text06 HeadingOne">Work with us</h2>
+                <p className="home-text07 Lead">
+                  <span className="home-text08">
                     Whatever your qualification is - we got you!
                   </span>
                 </p>
-                <p className="home-text25 Body">
-                  <span className="home-text26">
+                <p className="home-text09 Body">
+                  <span className="home-text10">
                     &quot;Take up one idea. Make that one idea your life - think
                     of it, dream of it, live on that idea. Let the brain,
                     muscles, nerves, every part of your body, be full of that
@@ -187,90 +101,90 @@ const Home = (props) => {
                     friend, my world.&quot;
                   </span>
                 </p>
-                <p className="home-text27">Mark Jojansen</p>
-                <p className="home-text28 Small">Project manager, Atlassian</p>
-                <div className="home-container15">
+                <p className="home-text11">Mark Jojansen</p>
+                <p className="home-text12 Small">Project manager, Atlassian</p>
+                <div className="home-container08">
                   <img
                     alt="image"
                     src="/playground_assets/team-4-200h.jpg"
-                    className="home-image05"
+                    className="home-image02"
                   />
-                  <div className="home-container16"></div>
+                  <div className="home-container09"></div>
                   <img
                     alt="image"
                     src="/playground_assets/team-3-200h.jpg"
-                    className="home-image06"
+                    className="home-image03"
                   />
-                  <div className="home-container17"></div>
+                  <div className="home-container10"></div>
                   <img
                     alt="image"
                     src="/playground_assets/team-2-200h.jpg"
-                    className="home-image07"
+                    className="home-image04"
                   />
                 </div>
               </div>
             </div>
             <div className="home-logos">
-              <div className="home-container18">
-                <div className="home-container19">
-                  <div className="home-container20">
+              <div className="home-container11">
+                <div className="home-container12">
+                  <div className="home-container13">
                     <img
                       alt="image"
                       src="/playground_assets/logo-asana.svg"
-                      className="home-image08"
+                      className="home-image05"
                     />
                   </div>
-                  <div className="home-container21">
+                  <div className="home-container14">
                     <img
                       alt="image"
                       src="/playground_assets/logo-slack.svg"
+                      className="home-image06"
+                    />
+                  </div>
+                  <div className="home-container15">
+                    <img
+                      alt="image"
+                      src="/playground_assets/logo-google-drive.svg"
+                      className="home-image07"
+                    />
+                  </div>
+                </div>
+                <div className="home-container16">
+                  <div className="home-container17">
+                    <img
+                      alt="image"
+                      src="/playground_assets/logo-shopify.svg"
+                      className="home-image08"
+                    />
+                  </div>
+                  <div className="home-container18">
+                    <img
+                      alt="image"
+                      src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/logos/small-logos/logo-apple.svg"
                       className="home-image09"
+                    />
+                  </div>
+                  <div className="home-container19">
+                    <img
+                      alt="image"
+                      src="/playground_assets/logo-invision.svg"
+                      className="home-image10"
+                    />
+                  </div>
+                </div>
+                <div className="home-container20">
+                  <div className="home-container21">
+                    <img
+                      alt="image"
+                      src="/playground_assets/logo-attlasian.svg"
+                      className="home-image11"
                     />
                   </div>
                   <div className="home-container22">
                     <img
                       alt="image"
-                      src="/playground_assets/logo-google-drive.svg"
-                      className="home-image10"
-                    />
-                  </div>
-                </div>
-                <div className="home-container23">
-                  <div className="home-container24">
-                    <img
-                      alt="image"
-                      src="/playground_assets/logo-shopify.svg"
-                      className="home-image11"
-                    />
-                  </div>
-                  <div className="home-container25">
-                    <img
-                      alt="image"
-                      src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/logos/small-logos/logo-apple.svg"
-                      className="home-image12"
-                    />
-                  </div>
-                  <div className="home-container26">
-                    <img
-                      alt="image"
-                      src="/playground_assets/logo-invision.svg"
-                      className="home-image13"
-                    />
-                  </div>
-                </div>
-                <div className="home-container27">
-                  <div className="home-container28">
-                    <img
-                      alt="image"
-                      src="/playground_assets/logo-attlasian.svg"
-                      className="home-image14"
-                    />
-                  </div>
-                  <div className="home-container29">
-                    <img
-                      alt="image"
                       src="/playground_assets/logo-weave.svg"
-                      className="home-image15"
+                      className="home-image12"
                     />
                   </div>
                 </div>
@@ -285,7 +199,7 @@ const Home = (props) => {
           <img
             alt="image"
             src="/playground_assets/waves-white.svg"
-            className="home-image16"
+            className="home-image13"
           />
           <img
             alt="image"
@@ -293,46 +207,46 @@ const Home = (props) => {
             className="home-top-wave-image"
           />
         </section>
-        <section className="home-container30">
-          <div className="home-container31">
-            <div className="home-container32">
+        <section className="home-container23">
+          <div className="home-container24">
+            <div className="home-container25">
               <svg viewBox="0 0 1024 1024" className="home-icon">
                 <path d="M363.722 722.052l41.298-57.816-45.254-45.256-57.818 41.296c-10.722-5.994-22.204-10.774-34.266-14.192l-11.682-70.084h-64l-11.68 70.086c-12.062 3.418-23.544 8.198-34.266 14.192l-57.818-41.298-45.256 45.256 41.298 57.816c-5.994 10.72-10.774 22.206-14.192 34.266l-70.086 11.682v64l70.086 11.682c3.418 12.060 8.198 23.544 14.192 34.266l-41.298 57.816 45.254 45.256 57.818-41.296c10.722 5.994 22.204 10.774 34.266 14.192l11.682 70.084h64l11.68-70.086c12.062-3.418 23.544-8.198 34.266-14.192l57.818 41.296 45.254-45.256-41.298-57.816c5.994-10.72 10.774-22.206 14.192-34.266l70.088-11.68v-64l-70.086-11.682c-3.418-12.060-8.198-23.544-14.192-34.266zM224 864c-35.348 0-64-28.654-64-64s28.652-64 64-64 64 28.654 64 64-28.652 64-64 64zM1024 384v-64l-67.382-12.25c-1.242-8.046-2.832-15.978-4.724-23.79l57.558-37.1-24.492-59.128-66.944 14.468c-4.214-6.91-8.726-13.62-13.492-20.13l39.006-56.342-45.256-45.254-56.342 39.006c-6.512-4.766-13.22-9.276-20.13-13.494l14.468-66.944-59.128-24.494-37.1 57.558c-7.812-1.892-15.744-3.482-23.79-4.724l-12.252-67.382h-64l-12.252 67.382c-8.046 1.242-15.976 2.832-23.79 4.724l-37.098-57.558-59.128 24.492 14.468 66.944c-6.91 4.216-13.62 8.728-20.13 13.494l-56.342-39.006-45.254 45.254 39.006 56.342c-4.766 6.51-9.278 13.22-13.494 20.13l-66.944-14.468-24.492 59.128 57.558 37.1c-1.892 7.812-3.482 15.742-4.724 23.79l-67.384 12.252v64l67.382 12.25c1.242 8.046 2.832 15.978 4.724 23.79l-57.558 37.1 24.492 59.128 66.944-14.468c4.216 6.91 8.728 13.618 13.494 20.13l-39.006 56.342 45.254 45.256 56.342-39.006c6.51 4.766 13.22 9.276 20.13 13.492l-14.468 66.944 59.128 24.492 37.102-57.558c7.81 1.892 15.742 3.482 23.788 4.724l12.252 67.384h64l12.252-67.382c8.044-1.242 15.976-2.832 23.79-4.724l37.1 57.558 59.128-24.492-14.468-66.944c6.91-4.216 13.62-8.726 20.13-13.492l56.342 39.006 45.256-45.256-39.006-56.342c4.766-6.512 9.276-13.22 13.492-20.13l66.944 14.468 24.492-59.13-57.558-37.1c1.892-7.812 3.482-15.742 4.724-23.79l67.382-12.25zM672 491.2c-76.878 0-139.2-62.322-139.2-139.2s62.32-139.2 139.2-139.2 139.2 62.322 139.2 139.2c0 76.878-62.32 139.2-139.2 139.2z"></path>
               </svg>
             </div>
-            <h2 className="home-text29 HeadingTwo">
-              <span className="home-text30">Beware The Components</span>
+            <h2 className="home-text13 HeadingTwo">
+              <span className="home-text14">Beware The Components</span>
             </h2>
-            <h3 className="home-text31 HeadingTwo">
-              <span className="home-text32">How To Handle Them</span>
+            <h3 className="home-text15 HeadingTwo">
+              <span className="home-text16">How To Handle Them</span>
               <br></br>
             </h3>
-            <span className="home-text33">
-              <span className="home-text34">
+            <span className="home-text17">
+              <span className="home-text18">
                 We’re constantly trying to express ourselves and actualize our
                 dreams. Don&apos;t stop.
               </span>
             </span>
           </div>
-          <div className="home-container33">
-            <div className="home-container34">
-              <div className="home-container35"></div>
-              <div className="home-container36">
+          <div className="home-container26">
+            <div className="home-container27">
+              <div className="home-container28"></div>
+              <div className="home-container29">
                 <svg
                   viewBox="0 0 987.4285714285713 1024"
                   className="home-icon2"
                 >
                   <path d="M438.857 508.571l312 312c-79.429 80.571-190.286 130.286-312 130.286-242.286 0-438.857-196.571-438.857-438.857s196.571-438.857 438.857-438.857v435.429zM545.714 512h441.714c0 121.714-49.714 232.571-130.286 312zM950.857 438.857h-438.857v-438.857c242.286 0 438.857 196.571 438.857 438.857z"></path>
                 </svg>
-                <h1 className="home-text35 HeadingOne">Search and Discover!</h1>
-                <span className="home-text36">
+                <h1 className="home-text19 HeadingOne">Search and Discover!</h1>
+                <span className="home-text20">
                   <span>Website visitors</span>
                   <span></span>
                 </span>
                 <OutlineBlackButton button="get started"></OutlineBlackButton>
               </div>
             </div>
-            <div className="home-container37">
+            <div className="home-container30">
               <ListItem></ListItem>
               <ListItem
                 title="2. Performance Analyze"
@@ -345,8 +259,8 @@ const Home = (props) => {
             </div>
           </div>
           <div className="home-divider"></div>
-          <div className="home-container38">
-            <div className="home-container39">
+          <div className="home-container31">
+            <div className="home-container32">
               <ListItem
                 title="1. Always in Sync"
                 description="No matter where you are, Trello stays in sync across all of your devices."
@@ -360,14 +274,14 @@ const Home = (props) => {
                 description="Integrate the apps your team already uses directly into your workflow."
               ></ListItem>
             </div>
-            <div className="home-container40">
-              <div className="home-container41"></div>
-              <div className="home-container42">
+            <div className="home-container33">
+              <div className="home-container34"></div>
+              <div className="home-container35">
                 <svg viewBox="0 0 1152 1024" className="home-icon4">
                   <path d="M1088 901.166c0 45.5 26.028 84.908 64 104.184v15.938c-10.626 1.454-21.472 2.224-32.5 2.224-68.008 0-129.348-28.528-172.722-74.264-26.222 6.982-54.002 10.752-82.778 10.752-159.058 0-288-114.616-288-256s128.942-256 288-256c159.058 0 288 114.616 288 256 0 55.348-19.764 106.592-53.356 148.466-6.824 14.824-10.644 31.312-10.644 48.7zM512 0c278.458 0 504.992 180.614 511.836 405.52-49.182-21.92-103.586-33.52-159.836-33.52-95.56 0-185.816 33.446-254.138 94.178-70.846 62.972-109.862 147.434-109.862 237.822 0 44.672 9.544 87.888 27.736 127.788-5.228 0.126-10.468 0.212-15.736 0.212-27.156 0-53.81-1.734-79.824-5.044-109.978 109.978-241.25 129.7-368.176 132.596v-26.916c68.536-33.578 128-94.74 128-164.636 0-9.754-0.758-19.33-2.164-28.696-115.796-76.264-189.836-192.754-189.836-323.304 0-229.75 229.23-416 512-416z"></path>
                 </svg>
-                <h1 className="home-text39 HeadingOne">Talk and Meet!</h1>
-                <span className="home-text40">
+                <h1 className="home-text23 HeadingOne">Talk and Meet!</h1>
+                <span className="home-text24">
                   <span>Website visitors</span>
                   <span></span>
                 </span>
@@ -410,7 +324,7 @@ const Home = (props) => {
             flex: 0 0 auto;
             width: 60%;
             display: flex;
-            padding: var(--dl-space-space-tripleunit);
+            padding: var(--dl-space-space-halfunit);
             z-index: 1;
             box-shadow: 0 8px 26px -4px hsla(0, 0%, 8%, 0.15),
               0 8px 9px -5px hsla(0, 0%, 8%, 0.06) !important;
@@ -502,174 +416,6 @@ const Home = (props) => {
             flex-direction: row;
             padding-bottom: var(--dl-space-space-sixunits);
           }
-          .home-container05 {
-            flex: 0 0 auto;
-            width: 100%;
-            display: flex;
-            max-width: 1320px;
-            align-items: center;
-            padding-top: var(--dl-space-space-sixunits);
-            padding-left: var(--dl-space-space-tripleunit);
-            padding-right: var(--dl-space-space-tripleunit);
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-sixunits);
-          }
-          .home-container06 {
-            display: flex;
-            max-width: 70%;
-            align-items: center;
-            margin-left: auto;
-            margin-right: auto;
-            flex-direction: column;
-          }
-          .home-text06 {
-            max-width: 600px;
-            text-align: center;
-            font-weight: bold;
-            margin-bottom: var(--dl-space-space-halfunit);
-          }
-          .home-text07 {
-            width: 100%;
-            text-align: center;
-            margin-bottom: var(--dl-space-space-halfunit);
-            background-image: linear-gradient(
-              310deg,
-              rgb(121, 40, 202),
-              rgb(255, 0, 128)
-            );
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-          }
-          .home-container07 {
-            flex: 0 0 auto;
-            width: 100%;
-            display: flex;
-            flex-wrap: wrap;
-            margin-top: var(--dl-space-space-tripleunit);
-            align-items: flex-start;
-            margin-left: var(--dl-space-space-unitandahalfunit);
-            margin-right: var(--dl-space-space-unitandahalfunit);
-            flex-direction: row;
-          }
-          .home-container08 {
-            flex: 0 0 auto;
-            width: 50%;
-            height: 100%;
-            display: flex;
-            position: relative;
-            align-items: flex-start;
-            flex-direction: column;
-          }
-          .home-image02 {
-            width: 100%;
-            box-shadow: 0 8px 26px -4px hsla(0, 0%, 8%, 0.15),
-              0 8px 9px -5px hsla(0, 0%, 8%, 0.06) !important;
-            object-fit: cover;
-            margin-left: 3rem;
-            margin-right: -3rem;
-            border-radius: var(--dl-radius-radius-radius75);
-          }
-          .home-text08 {
-            flex: 0 0 auto;
-            width: 40%;
-            display: flex;
-            padding: var(--dl-space-space-unit);
-            align-self: flex-end;
-            margin-top: var(--dl-space-space-unitandahalfunit);
-            align-items: flex-start;
-            border-color: #cb0c9f;
-            border-style: solid;
-            border-width: 1px;
-            border-radius: 0.25rem;
-            margin-bottom: 8rem;
-            flex-direction: column;
-          }
-          .home-text09 {
-            color: rgb(203, 12, 159);
-            display: inline;
-            font-weight: 400;
-            white-space: normal;
-            background-color: rgb(255, 255, 255);
-          }
-          .home-text11 {
-            color: rgb(203, 12, 159);
-            font-weight: 400;
-            background-color: rgb(255, 255, 255);
-          }
-          .home-container09 {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            position: relative;
-            align-items: flex-start;
-            flex-direction: column;
-          }
-          .home-image03 {
-            top: 0px;
-            left: auto;
-            width: 90%;
-            bottom: auto;
-            display: block;
-            position: absolute;
-            box-shadow: 0 8px 26px -4px hsla(0, 0%, 8%, 0.15),
-              0 8px 9px -5px hsla(0, 0%, 8%, 0.06) !important;
-            margin-top: -1.5rem;
-            object-fit: cover;
-            margin-left: 2rem;
-            border-radius: var(--dl-radius-radius-radius75);
-            margin-bottom: var(--dl-space-space-tripleunit);
-          }
-          .home-container10 {
-            flex: 0 0 auto;
-            width: 40%;
-            display: flex;
-            position: relative;
-            align-items: flex-start;
-            padding-left: var(--dl-space-space-triplequarterunit);
-            padding-right: var(--dl-space-space-triplequarterunit);
-            flex-direction: column;
-          }
-          .home-image04 {
-            width: 100%;
-            box-shadow: 0 8px 26px -4px hsla(0, 0%, 8%, 0.15),
-              0 8px 9px -5px hsla(0, 0%, 8%, 0.06) !important;
-            margin-top: 8rem;
-            object-fit: cover;
-            margin-left: -1.5rem;
-            border-radius: var(--dl-radius-radius-radius75);
-            margin-bottom: var(--dl-space-space-tripleunit);
-          }
-          .home-container11 {
-            width: 90%;
-            display: flex;
-            align-self: center;
-            align-items: flex-start;
-            flex-direction: column;
-          }
-          .home-text13 {
-            color: rgb(37, 47, 64);
-            font-weight: 700;
-            white-space: normal;
-            background-color: rgb(255, 255, 255);
-          }
-          .home-text15 {
-            color: rgb(103, 116, 142);
-            font-weight: 400;
-            white-space: normal;
-            background-color: rgb(255, 255, 255);
-          }
-          .home-text18 {
-            color: rgb(103, 116, 142);
-            font-weight: 400;
-            white-space: normal;
-            background-color: rgb(255, 255, 255);
-          }
-          .home-text21 {
-            color: rgb(103, 116, 142);
-            font-weight: 400;
-            white-space: normal;
-            background-color: rgb(255, 255, 255);
-          }
           .home-testimonials {
             flex: 0 0 auto;
             width: 100%;
@@ -679,7 +425,7 @@ const Home = (props) => {
             flex-direction: column;
             background-image: linear-gradient(310deg, #7928ca, #ff0080);
           }
-          .home-container12 {
+          .home-container05 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -693,7 +439,7 @@ const Home = (props) => {
             padding-bottom: 15rem;
             justify-content: space-between;
           }
-          .home-container13 {
+          .home-container06 {
             flex: 1;
             width: auto;
             height: auto;
@@ -701,44 +447,44 @@ const Home = (props) => {
             align-items: space-between;
             flex-direction: column;
           }
-          .home-container14 {
+          .home-container07 {
             display: flex;
             max-width: 600px;
             align-items: flex-start;
             margin-right: var(--dl-space-space-tripleunit);
             flex-direction: column;
           }
-          .home-text22 {
+          .home-text06 {
             color: var(--dl-color-gray-white);
           }
-          .home-text23 {
+          .home-text07 {
             color: var(--dl-color-gray-white);
             opacity: 0.8;
             margin-bottom: var(--dl-space-space-doubleunit);
           }
-          .home-text24 {
+          .home-text08 {
             display: inline;
             font-weight: 400;
             white-space: normal;
           }
-          .home-text25 {
+          .home-text09 {
             color: var(--dl-color-gray-white);
             opacity: 0.8;
             margin-bottom: var(--dl-space-space-doubleunit);
           }
-          .home-text26 {
+          .home-text10 {
             display: inline;
             font-weight: 600;
             white-space: normal;
           }
-          .home-text27 {
+          .home-text11 {
             color: var(--dl-color-gray-white);
           }
-          .home-text28 {
+          .home-text12 {
             color: var(--dl-color-gray-white);
             opacity: 0.8;
           }
-          .home-container15 {
+          .home-container08 {
             flex: 0 0 auto;
             display: flex;
             margin-top: var(--dl-space-space-doubleunit);
@@ -746,17 +492,17 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .home-image05 {
+          .home-image02 {
             width: 40px;
             opacity: 0.5;
             object-fit: cover;
             transition: 0.3;
             border-radius: var(--dl-radius-radius-radius75);
           }
-          .home-image05:hover {
+          .home-image02:hover {
             transform: scale(1.2);
           }
-          .home-container16 {
+          .home-container09 {
             flex: 0 0 auto;
             width: 1px;
             height: 25px;
@@ -768,17 +514,17 @@ const Home = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-gray-white);
           }
-          .home-image06 {
+          .home-image03 {
             width: 40px;
             opacity: 0.5;
             object-fit: cover;
             transition: 0.3;
             border-radius: var(--dl-radius-radius-radius75);
           }
-          .home-image06:hover {
+          .home-image03:hover {
             transform: scale(1.2);
           }
-          .home-container17 {
+          .home-container10 {
             flex: 0 0 auto;
             width: 1px;
             height: 25px;
@@ -790,13 +536,13 @@ const Home = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-gray-white);
           }
-          .home-image07 {
+          .home-image04 {
             width: 40px;
             object-fit: cover;
             transition: 0.3;
             border-radius: var(--dl-radius-radius-radius75);
           }
-          .home-image07:hover {
+          .home-image04:hover {
             transform: scale(1.2);
           }
           .home-logos {
@@ -805,7 +551,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-container18 {
+          .home-container11 {
             flex: 0 0 auto;
             display: flex;
             min-width: 400px;
@@ -813,7 +559,7 @@ const Home = (props) => {
             padding-left: var(--dl-space-space-triplequarterunit);
             flex-direction: column;
           }
-          .home-container19 {
+          .home-container12 {
             flex: 0 0 auto;
             width: 100%;
             height: 100px;
@@ -823,7 +569,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-container20 {
+          .home-container13 {
             width: 58px;
             height: 58px;
             padding: var(--dl-space-space-unit);
@@ -833,10 +579,10 @@ const Home = (props) => {
             border-radius: var(--dl-radius-radius-round);
             background-color: var(--dl-color-gray-white);
           }
-          .home-image08 {
+          .home-image05 {
             width: 100%;
           }
-          .home-container21 {
+          .home-container14 {
             width: 58px;
             height: 58px;
             padding: var(--dl-space-space-unit);
@@ -844,10 +590,10 @@ const Home = (props) => {
             border-radius: var(--dl-radius-radius-round);
             background-color: var(--dl-color-gray-white);
           }
-          .home-image09 {
+          .home-image06 {
             width: 100%;
           }
-          .home-container22 {
+          .home-container15 {
             width: 58px;
             height: 58px;
             padding: var(--dl-space-space-unit);
@@ -857,10 +603,10 @@ const Home = (props) => {
             border-radius: var(--dl-radius-radius-round);
             background-color: var(--dl-color-gray-white);
           }
-          .home-image10 {
+          .home-image07 {
             width: 100%;
           }
-          .home-container23 {
+          .home-container16 {
             flex: 0 0 auto;
             width: 100%;
             height: 70px;
@@ -870,7 +616,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-container24 {
+          .home-container17 {
             width: 58px;
             height: 58px;
             padding: var(--dl-space-space-unit);
@@ -878,11 +624,11 @@ const Home = (props) => {
             border-radius: var(--dl-radius-radius-round);
             background-color: var(--dl-color-gray-white);
           }
-          .home-image11 {
+          .home-image08 {
             width: 100%;
             object-fit: cover;
           }
-          .home-container25 {
+          .home-container18 {
             width: 58px;
             height: 58px;
             padding: var(--dl-space-space-unit);
@@ -891,10 +637,10 @@ const Home = (props) => {
             border-radius: var(--dl-radius-radius-round);
             background-color: var(--dl-color-gray-white);
           }
-          .home-image12 {
+          .home-image09 {
             width: 100%;
           }
-          .home-container26 {
+          .home-container19 {
             width: 58px;
             padding: var(--dl-space-space-unit);
             align-self: flex-end;
@@ -902,10 +648,10 @@ const Home = (props) => {
             border-radius: var(--dl-radius-radius-round);
             background-color: var(--dl-color-gray-white);
           }
-          .home-image13 {
+          .home-image10 {
             width: 100%;
           }
-          .home-container27 {
+          .home-container20 {
             flex: 0 0 auto;
             width: 50%;
             height: 70px;
@@ -915,7 +661,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-container28 {
+          .home-container21 {
             width: 58px;
             height: 58px;
             padding: var(--dl-space-space-unit);
@@ -923,10 +669,10 @@ const Home = (props) => {
             border-radius: var(--dl-radius-radius-round);
             background-color: var(--dl-color-gray-white);
           }
-          .home-image14 {
+          .home-image11 {
             width: 100%;
           }
-          .home-container29 {
+          .home-container22 {
             width: 58px;
             height: 58px;
             padding: var(--dl-space-space-unit);
@@ -935,7 +681,7 @@ const Home = (props) => {
             border-radius: var(--dl-radius-radius-round);
             background-color: var(--dl-color-gray-white);
           }
-          .home-image15 {
+          .home-image12 {
             width: 100%;
             object-fit: cover;
           }
@@ -948,7 +694,7 @@ const Home = (props) => {
             position: absolute;
             object-fit: cover;
           }
-          .home-image16 {
+          .home-image13 {
             top: auto;
             left: 0px;
             right: 0px;
@@ -967,7 +713,7 @@ const Home = (props) => {
             position: absolute;
             object-fit: cover;
           }
-          .home-container30 {
+          .home-container23 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -979,12 +725,12 @@ const Home = (props) => {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-sixunits);
           }
-          .home-container31 {
+          .home-container24 {
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .home-container32 {
+          .home-container25 {
             flex: 0 0 auto;
             width: 48px;
             height: 48px;
@@ -1000,34 +746,34 @@ const Home = (props) => {
             width: 24px;
             height: 24px;
           }
-          .home-text29 {
+          .home-text13 {
             margin-top: var(--dl-space-space-unitandahalfunit);
             background-image: linear-gradient(310deg, #7928ca, #ff0080);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
           }
-          .home-text30 {
+          .home-text14 {
             color: rgb(203, 12, 159);
             white-space: normal;
             text-decoration: none;
           }
-          .home-text31 {
+          .home-text15 {
             color: var(--dl-color-secondary-600);
             margin-bottom: var(--dl-space-space-halfunit);
           }
-          .home-text32 {
+          .home-text16 {
             font-weight: 700;
             white-space: normal;
             background-color: rgb(255, 255, 255);
           }
-          .home-text34 {
+          .home-text18 {
             color: rgb(103, 116, 142);
             display: inline;
             font-weight: 400;
             white-space: normal;
             background-color: rgb(255, 255, 255);
           }
-          .home-container33 {
+          .home-container26 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1036,7 +782,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .home-container34 {
+          .home-container27 {
             display: flex;
             position: relative;
             box-shadow: 0 8px 26px -4px hsla(0, 0%, 8%, 0.15),
@@ -1054,10 +800,10 @@ const Home = (props) => {
             background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/team-working.jpg');
             background-position: center;
           }
-          .home-container34:hover {
+          .home-container27:hover {
             transform: scale(1.04);
           }
-          .home-container35 {
+          .home-container28 {
             top: 0px;
             left: 0px;
             right: auto;
@@ -1068,7 +814,7 @@ const Home = (props) => {
             background: rgba(0, 0, 0, 0.4);
             border-radius: var(--dl-radius-radius-radius1);
           }
-          .home-container36 {
+          .home-container29 {
             display: flex;
             z-index: 1;
             align-items: center;
@@ -1081,17 +827,17 @@ const Home = (props) => {
             height: 30px;
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-text35 {
+          .home-text19 {
             color: var(--dl-color-gray-white);
             max-width: 200px;
             text-align: center;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text36 {
+          .home-text20 {
             color: var(--dl-color-gray-white);
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-container37 {
+          .home-container30 {
             display: flex;
             align-items: flex-start;
             margin-left: var(--dl-space-space-fourunits);
@@ -1110,7 +856,7 @@ const Home = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-gray-700);
           }
-          .home-container38 {
+          .home-container31 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1119,13 +865,13 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .home-container39 {
+          .home-container32 {
             display: flex;
             align-items: flex-start;
             margin-right: var(--dl-space-space-fourunits);
             flex-direction: column;
           }
-          .home-container40 {
+          .home-container33 {
             display: flex;
             position: relative;
             box-shadow: 0 8px 26px -4px hsla(0, 0%, 8%, 0.15),
@@ -1143,10 +889,10 @@ const Home = (props) => {
             background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/coffee-shop.jpg');
             background-position: center;
           }
-          .home-container40:hover {
+          .home-container33:hover {
             transform: scale(1.04);
           }
-          .home-container41 {
+          .home-container34 {
             top: 0px;
             left: 0px;
             right: auto;
@@ -1157,7 +903,7 @@ const Home = (props) => {
             background: rgba(0, 0, 0, 0.4);
             border-radius: var(--dl-radius-radius-radius1);
           }
-          .home-container42 {
+          .home-container35 {
             display: flex;
             z-index: 1;
             align-items: center;
@@ -1170,13 +916,13 @@ const Home = (props) => {
             height: 30px;
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .home-text39 {
+          .home-text23 {
             color: var(--dl-color-gray-white);
             max-width: 200px;
             text-align: center;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text40 {
+          .home-text24 {
             color: var(--dl-color-gray-white);
             margin-bottom: var(--dl-space-space-tripleunit);
           }
@@ -1210,42 +956,28 @@ const Home = (props) => {
               max-width: 960px;
             }
             .home-container05 {
-              max-width: 960px;
-              padding-left: var(--dl-space-space-doubleunit);
-              padding-right: var(--dl-space-space-doubleunit);
-            }
-            .home-container06 {
-              max-width: 80%;
-            }
-            .home-text06 {
-              text-align: center;
-            }
-            .home-text08 {
-              width: 50%;
-            }
-            .home-container12 {
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
               justify-content: center;
             }
-            .home-container13 {
+            .home-container06 {
               align-items: center;
             }
-            .home-container14 {
+            .home-container07 {
               margin-right: 0px;
             }
             .home-logos {
               display: none;
             }
-            .home-container30 {
+            .home-container23 {
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
             }
-            .home-container37 {
+            .home-container30 {
               width: 45%;
               margin-left: var(--dl-space-space-unit);
             }
-            .home-container39 {
+            .home-container32 {
               width: 45%;
               margin-right: var(--dl-space-space-unit);
             }
@@ -1255,6 +987,7 @@ const Home = (props) => {
               align-items: center;
             }
             .home-text05 {
+              color: var(--dl-color-secondary-600);
               text-align: left;
               margin-right: 0px;
               padding-right: 0px;
@@ -1263,7 +996,7 @@ const Home = (props) => {
               display: none;
             }
             .home-image01 {
-              display: none;
+              display: flex;
             }
             .home-features {
               max-width: 720px;
@@ -1273,48 +1006,19 @@ const Home = (props) => {
               padding-bottom: var(--dl-space-space-doubleunit);
             }
             .home-container05 {
-              max-width: 720px;
-            }
-            .home-container07 {
-              align-items: center;
-              flex-direction: column;
-            }
-            .home-container08 {
-              width: 80%;
-            }
-            .home-image02 {
-              margin-left: 0px;
-              margin-right: 0px;
-            }
-            .home-text08 {
-              width: 70%;
-              align-self: center;
-              margin-top: var(--dl-space-space-tripleunit);
-              margin-bottom: var(--dl-space-space-tripleunit);
-            }
-            .home-image03 {
-              display: none;
-            }
-            .home-container10 {
-              width: 80%;
-            }
-            .home-image04 {
-              display: none;
-            }
-            .home-container12 {
               padding-top: 12rem;
               padding-bottom: 12rem;
             }
-            .home-container31 {
+            .home-container24 {
               width: 80%;
             }
-            .home-text33 {
+            .home-text17 {
               text-align: center;
             }
-            .home-container33 {
+            .home-container26 {
               flex-direction: column;
             }
-            .home-container37 {
+            .home-container30 {
               width: 80%;
               margin-top: var(--dl-space-space-fourunits);
               align-items: center;
@@ -1324,11 +1028,11 @@ const Home = (props) => {
               margin-top: var(--dl-space-space-doubleunit);
               margin-bottom: var(--dl-space-space-doubleunit);
             }
-            .home-container38 {
+            .home-container31 {
               margin-top: 0px;
               flex-direction: column;
             }
-            .home-container39 {
+            .home-container32 {
               width: 80%;
               align-items: center;
               margin-right: 0px;
@@ -1337,7 +1041,29 @@ const Home = (props) => {
           }
           @media (max-width: 479px) {
             .home-card {
-              padding: var(--dl-space-space-unit);
+              padding: var(--dl-space-space-halfunit);
+            }
+            .home-text {
+              font-size: 2.25rem;
+              text-align: left;
+              font-family: Italiana;
+              font-weight: 700;
+              line-height: 1.3;
+              text-transform: uppercase;
+              text-decoration: none;
+              background-image: linear-gradient(
+                310deg,
+                rgb(121, 40, 202),
+                rgb(255, 0, 128)
+              );
+            }
+            .home-text01 {
+              color: var(--dl-color-secondary-700);
+              align-self: center;
+              text-align: center;
+            }
+            .home-text05 {
+              color: var(--dl-color-secondary-600);
             }
             .home-container03 {
               align-items: center;
@@ -1347,14 +1073,17 @@ const Home = (props) => {
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-unit);
             }
+            .home-image01 {
+              display: none;
+            }
             .home-features {
               width: 100%;
             }
-            .home-container12 {
+            .home-container05 {
               padding-top: var(--dl-space-space-sixunits);
               padding-bottom: var(--dl-space-space-sixunits);
             }
-            .home-text33 {
+            .home-text17 {
               text-align: center;
             }
           }

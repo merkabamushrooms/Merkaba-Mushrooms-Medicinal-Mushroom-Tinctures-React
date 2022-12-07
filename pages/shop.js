@@ -19,20 +19,21 @@ const Shop = (props) => {
         </Head>
         <Header></Header>
         <main className="shop-main">
-          <div id="my-store-78742521" className="shop-ecwid">
-            <DangerousHTML
-              id="my-store-78742521"
-              html={`<script
+          <div className="shop-container1">
+            <div id="my-store-82953762" className="shop-ecwid">
+              <DangerousHTML
+                id="my-store-82953762"
+                html={`<script
   data-cfasync="false"
   type="text/javascript"
-  src="https://app.ecwid.com/script.js?78742521&data_platform=code&data_date=2022-11-18"
+  src="https://app.ecwid.com/script.js?82953762&data_platform=code&data_date=2022-12-07"
   charset="utf-8"
 ></script>
 <script type="text/javascript">
-  xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-78742521");
-</script>
-`}
-            ></DangerousHTML>
+  xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-82953762");
+</script>`}
+              ></DangerousHTML>
+            </div>
           </div>
         </main>
         <FooterGray></FooterGray>
@@ -58,6 +59,16 @@ const Shop = (props) => {
             align-items: stretch;
             flex-direction: column;
             justify-content: space-between;
+          }
+          .shop-container1 {
+            flex: 0 0 auto;
+            width: 100%;
+            height: auto;
+            display: flex;
+            max-width: 450px;
+            align-self: center;
+            align-items: flex-start;
+            flex-direction: column;
           }
           .shop-ecwid {
             max-width: auto;

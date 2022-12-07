@@ -434,6 +434,7 @@ const AboutUs = (props) => {
             width: 50%;
             display: flex;
             z-index: 2;
+            position: relative;
             align-self: flex-end;
             margin-top: var(--dl-space-space-sixunits);
             align-items: flex-start;

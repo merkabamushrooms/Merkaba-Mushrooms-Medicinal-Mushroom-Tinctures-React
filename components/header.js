@@ -353,7 +353,14 @@ const Header = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .header-menu {
+              display: none;
+              align-items: flex-start;
+            }
             .header-container3 {
+              display: none;
+            }
+            .header-mobile-menu {
               display: none;
             }
           }

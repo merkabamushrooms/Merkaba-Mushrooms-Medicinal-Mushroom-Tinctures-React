@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 
 import Header from '../components/header'
+import Component1 from '../components/component1'
 import OutlineBlackButton from '../components/outline-black-button'
 import ListItem from '../components/list-item'
 import BlogCard from '../components/blog-card'
@@ -24,13 +25,7 @@ const Learn = (props) => {
         <Header rootClassName="header-root-class-name"></Header>
         <section className="learn-container01">
           <div className="learn-container02">
-            <div className="learn-container03">
-              <img
-                alt="image"
-                src="/playground_assets/logowhtasset%202-200w.png"
-                className="learn-image"
-              />
-            </div>
+            <Component1></Component1>
             <h2 className="learn-text HeadingTwo">Beware of Imitators</h2>
             <h3 className="learn-text01 HeadingTwo">
               <span className="learn-text02">How To Identify Them</span>
@@ -42,10 +37,10 @@ const Learn = (props) => {
               the truth
             </span>
           </div>
-          <div className="learn-container04">
-            <div className="learn-container05">
-              <div className="learn-container06"></div>
-              <div className="learn-container07">
+          <div className="learn-container03">
+            <div className="learn-container04">
+              <div className="learn-container05"></div>
+              <div className="learn-container06">
                 <svg
                   viewBox="0 0 987.4285714285713 1024"
                   className="learn-icon"
@@ -62,15 +57,15 @@ const Learn = (props) => {
                 <OutlineBlackButton button="get started"></OutlineBlackButton>
               </div>
             </div>
-            <div className="learn-container08">
+            <div className="learn-container07">
               <ListItem></ListItem>
               <ListItem title="2. Performance Analyze"></ListItem>
               <ListItem title="3. Social Conversions"></ListItem>
             </div>
           </div>
           <div className="learn-divider"></div>
-          <div className="learn-container09">
-            <div className="learn-container10">
+          <div className="learn-container08">
+            <div className="learn-container09">
               <ListItem
                 title="1. Always in Sync"
                 description="No matter where you are, Trello stays in sync across all of your devices."
@@ -84,9 +79,9 @@ const Learn = (props) => {
                 description="Integrate the apps your team already uses directly into your workflow."
               ></ListItem>
             </div>
-            <div className="learn-container11">
-              <div className="learn-container12"></div>
-              <div className="learn-container13">
+            <div className="learn-container10">
+              <div className="learn-container11"></div>
+              <div className="learn-container12">
                 <svg viewBox="0 0 1152 1024" className="learn-icon02">
                   <path d="M1088 901.166c0 45.5 26.028 84.908 64 104.184v15.938c-10.626 1.454-21.472 2.224-32.5 2.224-68.008 0-129.348-28.528-172.722-74.264-26.222 6.982-54.002 10.752-82.778 10.752-159.058 0-288-114.616-288-256s128.942-256 288-256c159.058 0 288 114.616 288 256 0 55.348-19.764 106.592-53.356 148.466-6.824 14.824-10.644 31.312-10.644 48.7zM512 0c278.458 0 504.992 180.614 511.836 405.52-49.182-21.92-103.586-33.52-159.836-33.52-95.56 0-185.816 33.446-254.138 94.178-70.846 62.972-109.862 147.434-109.862 237.822 0 44.672 9.544 87.888 27.736 127.788-5.228 0.126-10.468 0.212-15.736 0.212-27.156 0-53.81-1.734-79.824-5.044-109.978 109.978-241.25 129.7-368.176 132.596v-26.916c68.536-33.578 128-94.74 128-164.636 0-9.754-0.758-19.33-2.164-28.696-115.796-76.264-189.836-192.754-189.836-323.304 0-229.75 229.23-416 512-416z"></path>
                 </svg>
@@ -105,23 +100,23 @@ const Learn = (props) => {
             <span>Check my latest blogposts</span>
             <br></br>
           </h1>
-          <div className="learn-container14">
+          <div className="learn-container13">
             <BlogCard></BlogCard>
             <BlogCard></BlogCard>
             <BlogCard
               title="MateLabs machine learning"
               description="If you’ve ever wanted to train a machine learning model and integrate it with IFTTT, you now can with"
             ></BlogCard>
-            <div className="learn-container15">
+            <div className="learn-container14">
               <div className="learn-card">
-                <div className="learn-container16">
+                <div className="learn-container15">
                   <h1 className="learn-text16">Want to Learn More?</h1>
                   <span className="learn-text17">
                     Rather than worrying about where to find mushroom facts and
                     opinions, we have curated a repository of knowledge on all
                     things &quot;fungi&quot;
                   </span>
-                  <div className="learn-container17">
+                  <div className="learn-container16">
                     <button className="learn-button button">
                       <span className="learn-text18">Read more</span>
                       <svg viewBox="0 0 1024 1024" className="learn-icon04">
@@ -130,13 +125,13 @@ const Learn = (props) => {
                     </button>
                   </div>
                 </div>
-                <div className="learn-container18"></div>
+                <div className="learn-container17"></div>
               </div>
             </div>
           </div>
         </div>
         <div className="learn-contact">
-          <div className="learn-container19">
+          <div className="learn-container18">
             <div className="learn-form">
               <h2 className="learn-text19 HeadingOne">
                 <span>Say Hi!</span>
@@ -166,14 +161,14 @@ const Learn = (props) => {
                   className="learn-textarea textarea Small"
                 ></textarea>
               </form>
-              <div className="learn-container20">
-                <div className="learn-container21">
+              <div className="learn-container19">
+                <div className="learn-container20">
                   <PrimaryBlueButton button="send message"></PrimaryBlueButton>
                 </div>
               </div>
             </div>
             <div className="learn-info">
-              <div className="learn-container22">
+              <div className="learn-container21">
                 <h3 className="HeadingTwo">
                   <span>
                     Contact
@@ -189,8 +184,8 @@ const Learn = (props) => {
                   Fill up the form and our Team will get back to you within 24
                   hours.
                 </span>
-                <div className="learn-container23">
-                  <div className="learn-container24">
+                <div className="learn-container22">
+                  <div className="learn-container23">
                     <svg viewBox="0 0 1024 1024" className="learn-icon06">
                       <path d="M742 460l-94-94q-18-18-10-44 24-72 24-152 0-18 12-30t30-12h150q18 0 30 12t12 30q0 300-213 513t-513 213q-18 0-30-12t-12-30v-150q0-18 12-30t30-12q80 0 152-24 24-10 44 10l94 94q186-96 282-282z"></path>
                     </svg>
@@ -198,7 +193,7 @@ const Learn = (props) => {
                       (225) 555-5555
                     </a>
                   </div>
-                  <div className="learn-container25">
+                  <div className="learn-container24">
                     <svg viewBox="0 0 1024 1024" className="learn-icon08">
                       <path d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"></path>
                     </svg>
@@ -209,7 +204,7 @@ const Learn = (props) => {
                       hello@merkabamushrooms.com
                     </a>
                   </div>
-                  <div className="learn-container26">
+                  <div className="learn-container25">
                     <svg viewBox="0 0 1024 1024" className="learn-icon10">
                       <path d="M512 490q44 0 75-31t31-75-31-75-75-31-75 31-31 75 31 75 75 31zM512 86q124 0 211 87t87 211q0 62-31 142t-75 150-87 131-73 97l-32 34q-12-14-32-37t-72-92-91-134-71-147-32-144q0-124 87-211t211-87z"></path>
                     </svg>
@@ -218,7 +213,7 @@ const Learn = (props) => {
                     </span>
                   </div>
                 </div>
-                <div className="learn-container27">
+                <div className="learn-container26">
                   <svg
                     viewBox="0 0 877.7142857142857 1024"
                     className="learn-icon12"
@@ -242,9 +237,9 @@ const Learn = (props) => {
               <img
                 alt="image"
                 src="/playground_assets/wave-1.svg"
-                className="learn-image1"
+                className="learn-image"
               />
-              <div className="learn-container28"></div>
+              <div className="learn-container27"></div>
             </div>
           </div>
         </div>
@@ -278,21 +273,6 @@ const Learn = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .learn-container03 {
-            flex: 0 0 auto;
-            width: 48px;
-            height: 48px;
-            display: flex;
-            align-items: center;
-            border-radius: var(--dl-radius-radius-radius75);
-            flex-direction: column;
-            justify-content: center;
-            background-image: linear-gradient(310deg, #7928ca, #ff0080);
-          }
-          .learn-image {
-            width: auto;
-            object-fit: cover;
-          }
           .learn-text {
             margin-top: var(--dl-space-space-unitandahalfunit);
             background-image: linear-gradient(310deg, #7928ca, #ff0080);
@@ -312,7 +292,7 @@ const Learn = (props) => {
             text-align: center;
             font-weight: 400;
           }
-          .learn-container04 {
+          .learn-container03 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -321,7 +301,7 @@ const Learn = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .learn-container05 {
+          .learn-container04 {
             display: flex;
             position: relative;
             box-shadow: 0 8px 26px -4px hsla(0, 0%, 8%, 0.15),
@@ -339,10 +319,10 @@ const Learn = (props) => {
             background-image: url('https://images.unsplash.com/photo-1542913235-1f46ce06443d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDV8fG11c2hyb29tfGVufDB8fHx8MTY2ODgwOTEzNg&ixlib=rb-4.0.3&w=1400');
             background-position: center;
           }
-          .learn-container05:hover {
+          .learn-container04:hover {
             transform: scale(1.04);
           }
-          .learn-container06 {
+          .learn-container05 {
             top: 0px;
             left: 0px;
             right: auto;
@@ -353,7 +333,7 @@ const Learn = (props) => {
             background: rgba(0, 0, 0, 0.4);
             border-radius: var(--dl-radius-radius-radius1);
           }
-          .learn-container07 {
+          .learn-container06 {
             display: flex;
             z-index: 1;
             align-items: center;
@@ -376,7 +356,7 @@ const Learn = (props) => {
             color: var(--dl-color-gray-white);
             margin-bottom: var(--dl-space-space-tripleunit);
           }
-          .learn-container08 {
+          .learn-container07 {
             display: flex;
             align-items: flex-start;
             margin-left: var(--dl-space-space-fourunits);
@@ -395,7 +375,7 @@ const Learn = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-gray-700);
           }
-          .learn-container09 {
+          .learn-container08 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -404,13 +384,13 @@ const Learn = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .learn-container10 {
+          .learn-container09 {
             display: flex;
             align-items: flex-start;
             margin-right: var(--dl-space-space-fourunits);
             flex-direction: column;
           }
-          .learn-container11 {
+          .learn-container10 {
             display: flex;
             position: relative;
             box-shadow: 0 8px 26px -4px hsla(0, 0%, 8%, 0.15),
@@ -428,10 +408,10 @@ const Learn = (props) => {
             background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/coffee-shop.jpg');
             background-position: center;
           }
-          .learn-container11:hover {
+          .learn-container10:hover {
             transform: scale(1.04);
           }
-          .learn-container12 {
+          .learn-container11 {
             top: 0px;
             left: 0px;
             right: auto;
@@ -444,7 +424,7 @@ const Learn = (props) => {
             background-size: cover;
             background-image: url('https://images.unsplash.com/photo-1605188346517-fab6d1c1db4e?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDQwfHx0aW5jdHVyZXxlbnwwfHx8fDE2Njg4MDkzMDQ&ixlib=rb-4.0.3&w=1400');
           }
-          .learn-container13 {
+          .learn-container12 {
             display: flex;
             z-index: 1;
             align-items: center;
@@ -484,7 +464,7 @@ const Learn = (props) => {
             margin-left: var(--dl-space-space-unit);
             margin-right: var(--dl-space-space-unit);
           }
-          .learn-container14 {
+          .learn-container13 {
             width: 100%;
             display: flex;
             flex-wrap: wrap;
@@ -492,7 +472,7 @@ const Learn = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .learn-container15 {
+          .learn-container14 {
             flex: 1;
             margin: var(--dl-space-space-unit);
             display: flex;
@@ -512,7 +492,7 @@ const Learn = (props) => {
             background-size: cover;
             background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/seaside.jpg');
           }
-          .learn-container16 {
+          .learn-container15 {
             display: flex;
             z-index: 2;
             align-items: flex-start;
@@ -529,7 +509,7 @@ const Learn = (props) => {
             font-weight: 400;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .learn-container17 {
+          .learn-container16 {
             display: flex;
             position: relative;
           }
@@ -553,7 +533,7 @@ const Learn = (props) => {
             width: 24px;
             height: 24px;
           }
-          .learn-container18 {
+          .learn-container17 {
             top: auto;
             flex: 0 0 auto;
             left: 0px;
@@ -578,7 +558,7 @@ const Learn = (props) => {
             padding-right: var(--dl-space-space-tripleunit);
             padding-bottom: var(--dl-space-space-sixunits);
           }
-          .learn-container19 {
+          .learn-container18 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -673,14 +653,14 @@ const Learn = (props) => {
             box-shadow: 0 0 0 2px #e9aede;
             border-color: var(--dl-color-pink-200);
           }
-          .learn-container20 {
+          .learn-container19 {
             display: flex;
             align-self: flex-end;
             margin-top: var(--dl-space-space-unit);
             align-items: flex-start;
             flex-direction: column;
           }
-          .learn-container21 {
+          .learn-container20 {
             display: flex;
           }
           .learn-info {
@@ -699,7 +679,7 @@ const Learn = (props) => {
             border-top-right-radius: var(--dl-radius-radius-radius1);
             border-bottom-right-radius: var(--dl-radius-radius-radius1);
           }
-          .learn-container22 {
+          .learn-container21 {
             display: flex;
             padding: var(--dl-space-space-fourunits);
             z-index: 1;
@@ -709,7 +689,7 @@ const Learn = (props) => {
           .learn-text28 {
             opacity: 0.8;
           }
-          .learn-container23 {
+          .learn-container22 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -718,7 +698,7 @@ const Learn = (props) => {
             margin-bottom: var(--dl-space-space-doubleunit);
             flex-direction: column;
           }
-          .learn-container24 {
+          .learn-container23 {
             display: flex;
             margin-top: var(--dl-space-space-unit);
             align-items: flex-start;
@@ -735,7 +715,7 @@ const Learn = (props) => {
             opacity: 0.8;
             text-decoration: none;
           }
-          .learn-container25 {
+          .learn-container24 {
             display: flex;
             margin-top: var(--dl-space-space-unit);
             align-items: flex-start;
@@ -752,7 +732,7 @@ const Learn = (props) => {
             opacity: 0.8;
             text-decoration: none;
           }
-          .learn-container26 {
+          .learn-container25 {
             display: flex;
             margin-top: var(--dl-space-space-unit);
             align-items: flex-start;
@@ -768,7 +748,7 @@ const Learn = (props) => {
           .learn-text29 {
             opacity: 0.8;
           }
-          .learn-container27 {
+          .learn-container26 {
             flex: 0 0 auto;
             width: 200px;
             display: flex;
@@ -793,7 +773,7 @@ const Learn = (props) => {
             height: 24px;
             margin-right: var(--dl-space-space-doubleunit);
           }
-          .learn-image1 {
+          .learn-image {
             top: 0px;
             left: -1px;
             right: auto;
@@ -802,7 +782,7 @@ const Learn = (props) => {
             position: absolute;
             object-fit: cover;
           }
-          .learn-container28 {
+          .learn-container27 {
             top: auto;
             left: auto;
             right: 0px;
@@ -818,21 +798,21 @@ const Learn = (props) => {
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
             }
-            .learn-container08 {
+            .learn-container07 {
               width: 45%;
               margin-left: var(--dl-space-space-unit);
             }
-            .learn-container10 {
+            .learn-container09 {
               width: 45%;
               margin-right: var(--dl-space-space-unit);
             }
-            .learn-container15 {
+            .learn-container14 {
               width: 100%;
             }
             .learn-card {
               width: 100%;
             }
-            .learn-container19 {
+            .learn-container18 {
               flex-direction: column;
             }
             .learn-info {
@@ -840,7 +820,7 @@ const Learn = (props) => {
               border-top-right-radius: 0;
               border-bottom-left-radius: var(--dl-radius-radius-radius1);
             }
-            .learn-image1 {
+            .learn-image {
               display: none;
             }
           }
@@ -851,10 +831,10 @@ const Learn = (props) => {
             .learn-text04 {
               text-align: center;
             }
-            .learn-container04 {
+            .learn-container03 {
               flex-direction: column;
             }
-            .learn-container08 {
+            .learn-container07 {
               width: 80%;
               margin-top: var(--dl-space-space-fourunits);
               align-items: center;
@@ -864,11 +844,11 @@ const Learn = (props) => {
               margin-top: var(--dl-space-space-doubleunit);
               margin-bottom: var(--dl-space-space-doubleunit);
             }
-            .learn-container09 {
+            .learn-container08 {
               margin-top: 0px;
               flex-direction: column;
             }
-            .learn-container10 {
+            .learn-container09 {
               width: 80%;
               align-items: center;
               margin-right: 0px;
@@ -880,7 +860,7 @@ const Learn = (props) => {
               padding-right: var(--dl-space-space-doubleunit);
               padding-bottom: var(--dl-space-space-doubleunit);
             }
-            .learn-container15 {
+            .learn-container14 {
               margin-top: var(--dl-space-space-doubleunit);
             }
             .learn-contact {
