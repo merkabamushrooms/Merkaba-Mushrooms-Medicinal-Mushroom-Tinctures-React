@@ -1,5 +1,4 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-
 class CustomDocument extends Document {
   render() {
     return (
@@ -53,7 +52,7 @@ class CustomDocument extends Document {
           <div
             dangerouslySetInnerHTML={{
               __html:
-                "<script src='https://unpkg.com/@teleporthq/teleport-custom-scripts'></script>\n",
+                '<script src=\'https://unpkg.com/@teleporthq/teleport-custom-scripts\'></script>\n<div class="ec-cart-widget"></div>\n<div>\n<script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?82953762&data_platform=code&data_date=2022-12-07" charset="utf-8"></script>\n<script type="text/javascript">Ecwid.init();</script>\n</div>',
             }}
           ></div>
         </body>
@@ -61,5 +60,4 @@ class CustomDocument extends Document {
     )
   }
 }
-
 export default CustomDocument
