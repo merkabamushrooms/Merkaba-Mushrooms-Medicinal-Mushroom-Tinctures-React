@@ -218,7 +218,7 @@ const AboutUs = (props) => {
         <div className="about-us-profile">
           <img
             alt="image"
-            src="/playground_assets/jordan%20profile%201-200h.jpeg"
+            src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
             className="about-us-image19"
           />
           <div className="about-us-container10">

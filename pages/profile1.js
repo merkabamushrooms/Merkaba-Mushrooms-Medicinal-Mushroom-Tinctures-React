@@ -25,7 +25,7 @@ const Profile1 = (props) => {
         <div className="profile1-profile">
           <img
             alt="image"
-            src="/playground_assets/jordan%20profile%201-200h.jpeg"
+            src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
             className="profile1-image"
           />
           <div className="profile1-container01">
